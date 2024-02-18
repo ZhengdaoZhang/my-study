@@ -10,14 +10,14 @@
 
     that's right! I'm zhangzhengdao.it's a pleasure to meet you.
 
-## When you want to ask someone for their opinion or feelings about something, especially a place or an experience, you can use the phrase How do you like
+## When you want to ask someone for their opinion or feelings about something, especially a place or an experience, you can use the phrase How do you like.
 
-    How do you like California so far.
+    How do you like LuoYang so far.
 
 ## When talking about preferences or feelings towards something, the phrase I like it is often used
 
     I like it.
 
-## When you want to highlight differences between two things, you can use the phrase different from. What words does Tom use to compare California and Texas?
+## When you want to highlight differences between two things, you can use the phrase different from.
 
-    It's different from Texas, but I like it here.
+    It's different from TaiAn, but I like it here.
