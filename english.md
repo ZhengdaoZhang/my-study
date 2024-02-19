@@ -4,7 +4,7 @@
 
 ## self-introduce
 
-    I'm zhangzhengdao, the font-end engineer.
+    I'm zhangzhengdao, the front-end engineer.
 
 ## When someone makes a correct assumption or guess about you, you can confirm it using phrases like that's right. It's a way of agreeing or saying yes to what is said.In English, the verb to be is used to talk about identities, characteristics, and more. The contraction I'm is a combination of I and am
 
@@ -21,5 +21,3 @@
 ## When you want to highlight differences between two things, you can use the phrase different from.
 
     It's different from TaiAn, but I like it here.
-
-##
