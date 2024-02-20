@@ -62,3 +62,55 @@
 ### When you want to share where you were born or where you grew up, you can state your origin using I'm from [place of origin]. place of origin is where you are from. After sharing your own origin, you can ask someone else about theirs with How about you
 
     I'm from LuoYang.How about you?
+
+### When you want to talk about all the people in a particular group without exceptions, you use the word everybody
+
+    Everybody is so nice around here.
+
+### Demonstrative pronouns like this and those help to point to specific items, distinguishing them from others
+
+    Hey, is this one of those standing desks?
+
+### The demonstrative pronoun this is used to refer to a singular noun that is close to the speaker, both in terms of distance and in terms of the topic of conversation. It can refer to both tangible objects and intangible ideas or situations
+
+    This is my laptop.
+
+### The demonstrative pronoun those refers to plural nouns that are further away from the speaker in terms of distance or not currently being handled or discussed
+
+    Those books are mine.
+
+### This and those are both demonstrative pronouns, but they are used in different contexts. This refers to a singular item close to the speaker, while those refers to plural items that are further away or not currently being discussed
+
+    This is my coffee mug right here on my desk.Those are my colleagues standing near the  .
+
+### When you want to express agreement or affirmation to what someone has just said, you can use phrases like That's so true or That is true. It's a way to show you are in alignment with the previous statement
+
+    That's so true.
+
+### The word that points to something a bit far from you. Imagine you're in a shop looking at gadgets
+
+    That is the table i want.
+
+### Use this for something close and that for something a bit far
+
+    This printer right here is fast,Can you fix that computer over here.
+
+### Words like your and my are used to show possession. Your refers to something belonging to the person you are speaking to, while my refers to something that belongs to you
+
+    But hey, now your desk is juse like my desk.
+
+### Awesome is a word people use when they really like something. It's like saying very good! It's an informal way to show approval or admiration
+
+    Awesome. My computer and drawing tablet are great, too.
+
+### The pronoun they is often used to refer to a group of people or entities. In this context, they refers to the people responsible within the company. Are is the verb to be conjugated to agree with the plural pronoun they
+
+    Yeah! at this company. they are very attentive to these details.
+
+### When referring to a group of people or things, we often use they as the subject. Usually after a subject there's a verb. When they is followed by the verb to be in the present simple, it is conjugated as are. Example: They are my colleagues
+
+    They are very friendly clients. I love those templates! They are just my style.
+
+### In English, people often use abbreviations to make speech or writing more concise. They are can be abbreviated to form a contraction. Contractions make speech sound more natural and informal. They're is the contracted form of they are
+
+    In the tech department, they're always working on exciting projects.
