@@ -114,3 +114,51 @@
 ### In English, people often use abbreviations to make speech or writing more concise. They are can be abbreviated to form a contraction. Contractions make speech sound more natural and informal. They're is the contracted form of they are
 
     In the tech department, they're always working on exciting projects.
+
+### They're, their, and there sound similar but have different meanings. They're is a contraction of they are, their is a possessive pronoun of they, and there refers to a place or introduces a sentence or clause
+
+    They're going to the concert tonight.
+
+### The phrase you are into is an informal way to say that someone really likes something or is interested in a particular activity or topic
+
+    you are into football.
+
+### When you want to say that you have a strong interest in something, you can use the phrase I am into it. This phrase shows what someone likes or enjoys
+
+    I really like playing the guitar. I am into it.
+
+### Cutting-edge refers to the most advanced stage of development of something. Gadgets are small tools or devices with a particular function. Thus, cutting-edge gadgets are the latest and most advanced tools or devices
+
+    Yeah, at this company, they're very attentive to these details. You are going to like it here if you are into cutting-edge gadgets.
+
+### People often refer to items around them using this, that, these, and those
+
+    This is the computer right next to me. That printer across the room is broken. These are the chairs around the nearby table. Those files in the distant cabinet are archived.
+
+### In English, a and an are indefinite articles. A is used before words that begin with a consonant sound, and an is used before words that begin with a vowel sound
+
+    An ergonomic chair and a mouse.
+
+### Remember that articles show if we are talking about something specific or something general
+
+    We are looking for a project manager to join our team.
+
+### Asking if someone is ready to begin is a way to check if the person is prepared or eager to start a particular activity
+
+    Are you ready to begin?
+
+### When you're very hungry, you can emphasize this feeling by using the word so before hungry. This way, you're expressing a stronger emotion or feeling about how hungry you are
+
+    Wow! I'm so hungry.
+
+### To ask a question using it is, you change the order. Instead of it is, you say is it. This is how you turn a statement into a question in English
+
+    Is it lunch time?
+
+## If a person asks you a direct question using is it. For example: Is it true? You can reply to this question with these short answers
+
+    Yes, it is. For affirmative. No, it is not or No, it isn't. For negative.
+
+### To ask about someone's actions or plans in the present with the verb to be, you can use the structure are you at the beginning of the question. This combination of verb (are) and subject (you) helps form questions in the present simple tense
+
+    Are you eating here or are you going out?
