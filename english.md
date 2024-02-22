@@ -4,7 +4,7 @@
 
 ## part 1
 
-    I'm Zhangzhengdao, the front-end engineer.
+    I'm Zhangzhengdao, the web developer.
 
 ### When someone makes a correct assumption or guess about you, you can confirm it using phrases like that's right. It's a way of agreeing or saying yes to what is said.In English, the verb to be is used to talk about identities, characteristics, and more. The contraction I'm is a combination of I and am
 
@@ -162,3 +162,55 @@
 ### To ask about someone's actions or plans in the present with the verb to be, you can use the structure are you at the beginning of the question. This combination of verb (are) and subject (you) helps form questions in the present simple tense
 
     Are you eating here or are you going out?
+
+### Today is a word used to refer to the current day, the day that is happening now
+
+    Today, I'm going out. I can show you some places around here.
+
+### Are you interested? is a way of asking someone if they want to know more or participate in something
+
+    Are you interested?
+
+### Of course is a phrase used to express strong agreement or to indicate that something is obvious
+
+    of Course!
+
+### In questions, any is often used to inquire if there is at least one of something
+
+    Any favorite lunch spot around here, Sophie?
+
+### The phrase Is that ok for you? is used to ask if someone agrees with or accepts a suggestion or situation
+
+    Is that ok for you?
+
+### When someone says Sounds great!, they are expressing agreement or enthusiasm about what has been said
+
+    Sounds great!
+
+### If a place is within walking distance, it means it's close enough to reach by walking and you don't need to use a vehicle
+
+    Is the cafe within waking distance?
+
+### In English, you can use a certain structure to indicate that something is not in a particular state or condition in the present
+
+    Yes,it's not far!
+
+### When two or more people decide to accompany each other to a place or event, they use a phrase to indicate they'll be going as a group
+
+    Come on! we can go together.
+
+### There are some questions you can use to friendly start a conversation. This is one of them
+
+    How is everthing?
+
+### When you want to present one person to another, you can use the phrase let me introduce you to 'name' (name being the person's name). For example: Let me introduce you to Daniel
+
+    Let me introduce you to Tom.
+
+### The phrase this is 'name' is used to present someone in a conversation. name refers to a person's name. It's a simple and direct way to make introductions. For example: Daniel, this is Carol
+
+    Magee, this is Alan.
+
+### The verb be has different forms based on the subject. For third person singular (he, she, it), the correct form is is
+
+    This is Alan. He is a web developer. This is Tom. He is from Texas.
