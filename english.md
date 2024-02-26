@@ -198,3 +198,25 @@
 
     A: How was it?
     Q: It was amazing.
+
+## class 2
+
+    Learn Introductions in an Online Team Meeting.
+
+### Dialogue 1: A mobile developer joins the team
+
+    A: Hi,everyone! My name is Alice,and I'm happy to be part of the team.
+    A: I'm a programmer and I love creating software that helps people in their daily activities.
+    A: In my previous job, I developed mobile apps for small businesses.
+    A: I really want to collaborate with you and to contribute to our projects here at the company.
+    B: It's nice to have you here, Alice. I'm Bob, the project manager. Welcome aboard. I'm sure your experience will be of great help to us.
+
+### Dialogue 2: Introducing the new Junior Developer
+
+    B: Alright, team. This is Alice's first day with us , so please let me introduce you all to her.
+    B: This is Sarah, the senior software developer.
+    B: This is John ,he makes sure our data is secure and efficient.
+    B: This is John, the database administrator. He's been here for three years.
+    B: She joined the team last year.She loves creating user-friendly interfaces.
+    A: Great! Thanks, everybody! Well, I'm Alice. I'm starting as a junior developer today.
+    A: I'm starting as a junior developer today. I really like learning new things and can't wait to start contributing to our projects.
