@@ -211,7 +211,7 @@
     A: I really want to collaborate with you and to contribute to our projects here at the company.
     B: It's nice to have you here, Alice. I'm Bob, the project manager. Welcome aboard. I'm sure your experience will be of great help to us.
 
-### Dialogue 2: Introducing the new Junior Developer
+### Dialogue 2: Introducing the new junior developer
 
     B: Alright, team. This is Alice's first day with us , so please let me introduce you all to her.
     B: This is Sarah, the senior software developer.
@@ -220,3 +220,20 @@
     B: She joined the team last year.She loves creating user-friendly interfaces.
     A: Great! Thanks, everybody! Well, I'm Alice. I'm starting as a junior developer today.
     A: I'm starting as a junior developer today. I really like learning new things and can't wait to start contributing to our projects.
+
+### Dialogue 3: Team meeting introduction
+
+    B: Good morning, everyone! I hope you're all well.
+    B: Today, we have a new member joining our team.
+    B: Let me introduce you all briefly.
+    B: This is Sarah, the senior developer.
+    B: You can talk to her any time, even in this virtual setting, if you have questions, Lisa.
+    L: I'm excited to work with all of you and learn from your expertise.
+    B: This is Tom,a new new graphic designer. Is there any specific area of design or development you're interested in? He’s your go-to guy for that.
+    B: Is there any specific area you're interested in? Are there any questions you have for Tom ?
+    L: Hi Tom. I'm interested in UI/UX design and front-end development, but I'm open to explore more.
+    B: I'm Bob, the team's project manager. I'm the person you always need to talk to if you have any questions about the team's goals and schedule.
+    L: Hi,Bob.It's great to meet you too.
+    B: Excellent! Lisa, it's great to have you j\oin our team, even if just online.
+    B: Okay, team. Let's help Lisa with the support she needs to start.
+    B: Now here are the topics on today's agenda…
