@@ -237,3 +237,9 @@
     B: Excellent! Lisa, it's great to have you j\oin our team, even if just online.
     B: Okay, team. Let's help Lisa with the support she needs to start.
     B: Now here are the topics on today's agenda…
+
+### Dialogue 4: A training session
+
+    J: Good morning! I’m James and I’m here to help you with your training.Can you briefly introduce yourself?
+    S: Hi! I'm Sophie. I'm here to improve my project management skills. I want to learn more about project management.Nice to meet you James.
+    J: Thank you Sophie. We have a lot of talk about today,and i'm sure we'll have great insights to share during our training session. Let's get started!
