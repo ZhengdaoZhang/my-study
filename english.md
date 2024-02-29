@@ -243,3 +243,14 @@
     J: Good morning! I’m James and I’m here to help you with your training.Can you briefly introduce yourself?
     S: Hi! I'm Sophie. I'm here to improve my project management skills. I want to learn more about project management.Nice to meet you James.
     J: Thank you Sophie. We have a lot of talk about today,and i'm sure we'll have great insights to share during our training session. Let's get started!
+
+### Dialogue 5: Meeting a client
+
+    M: Welcome, everyone. Today, we have with us our clients from FCC corporation.
+    M: I'm Maria. I'm responsible for the technical aspects of the project.He's Bob. He's responsible for coordinating our efforts to meet your needs.
+    D: Hey, Bob. How's it going?
+    M: This's Sarah, the sunior developer.
+    D: Great to meet you, Sarah.
+    M: This's Linda. She is UX/UI designer.
+    D: Wonderful to meet you all. I'm David, the project manager from FCC Corp.I'll be your point of contact and I’ll help make sure our collaboration is great.
+    M: Thanks. Now let's get started with the project details and your specific requirements, David…
