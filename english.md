@@ -254,3 +254,19 @@
     M: This's Linda. She is UX/UI designer.
     D: Wonderful to meet you all. I'm David, the project manager from FCC Corp.I'll be your point of contact and I’ll help make sure our collaboration is great.
     M: Thanks. Now let's get started with the project details and your specific requirements, David…
+
+## class 3
+
+    Learn coversation starters in the break room
+
+### Dialogue 1: Small talk
+
+    S: Hi, Tome. Are you happy with the workplace so far?
+    T: Yes, it's great! Everyone is friendly.
+    T: Listen,how about the team-building activities here?Are they cool?
+    S: Yes!We go out with the team sometimes.Are you entity these activities?
+    T: Absolutely! They are really fun. What is the team’s favorite?
+    S: Many of us enjoy the monthly game night.Are you into playing board games?
+    T: Yes,i like board games.
+    T: Yes, I've played both before. Great choices. Is the team into playing games on computers as well, like "Gartic"?
+    T: That sounds like a plan.
