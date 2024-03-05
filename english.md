@@ -6,198 +6,63 @@
 
     Learn Greetings in your First Day at the Office
 
-### introduce oneself
-
-    I'm Zhangzhengdao, the web developer.
-
-### When someone makes a correct assumption or guess about you, you can confirm it using phrases like that's right. It's a way of agreeing or saying yes to what is said.In English, the verb to be is used to talk about identities, characteristics, and more. The contraction I'm is a combination of I and am
-    
-    A: Are you the new web developer?
-    Q: that's right! I'm zhangzhengdao.it's a pleasure to meet you.
-
-### When you want to ask someone for their opinion or feelings about something, especially a place or an experience, you can use the phrase How do you like
-
-    A: How do you like LuoYang so far.
-    Q: I like it.
-
-### When you want to highlight differences between two things, you can use the phrase different from
-
-    A: How do you like LuoYang so far.
-    Q: I like it. It's different from TaiAn, but I like it here.
-
-### When someone wants to guide or direct another person somewhere, they can use let me show you to your [place], place being the destination
-
-    let me show you to your desk.
-
-### Describing objects or places with their characteristics or things related to them helps the listener to identify them easily
-
-    Do you see that the desk with a drawing tablet and a computer?
-
-### Expressing satisfaction or contentment in English can be done using various expressions. Everything looks great is one way to show that you are pleased or satisfied with something
-
-    everything looks great.
-
-### When expressing gratitude, we sometimes mention the action for which we are thankful
-
-    Thanks for showing me around the place
-
-### When greeting someone casually or for the first time, Hi, there is a friendly way to say hello. It's often used in informal situations or to greet someone you might not know very well
-
-    Hi there.
-
-### Occupations are jobs or professions people have. In conversations, it's common to introduce oneself with their profession. I'm ZhangZhengdao. I'm the new front-end engineer
-
-    I'm the new web developer.
-
-### Identify how articles change the context of a sentence. Articles, like the and a, can change the meaning of a sentence. The talks about something specific. A talks about something in general
-
-    I'm a web developer in our company.
-    I'm the web developer in our company. 
-
-### When you want to know about someone's origin or the place they grew up, you can ask Where are you from?
-
-    Where are you from?
-
-### When you want to share where you were born or where you grew up, you can state your origin using I'm from [place of origin]
-
-    I'm from LuoYang.How about you?
-
-### When you want to talk about all the people in a particular group without exceptions, you use the word everybody
-
-    Everybody is so nice around here.
-
-### Demonstrative pronouns like this and those help to point to specific items, distinguishing them from others
-
-    Hey, is this one of those standing desks?
-
-### The demonstrative pronoun this is used to refer to a singular noun that is close to the speaker, both in terms of distance and in terms of the topic of conversation. It can refer to both tangible objects and intangible ideas or situations
-
-    This is my laptop.
-
-### The demonstrative pronoun those refers to plural nouns that are further away from the speaker in terms of distance or not currently being handled or discussed
-
-    Those books are mine.
-
-### This and those are both demonstrative pronouns, but they are used in different contexts. This refers to a singular item close to the speaker, while those refers to plural items that are further away or not currently being discussed
-
-    This is my coffee mug right here on my desk.Those are my colleagues standing near the.
-
-### When you want to express agreement or affirmation to what someone has just said, you can use phrases like That's so true or That is true. It's a way to show you are in alignment with the previous statement
-
-    That's so true.
-
-### The word that points to something a bit far from you. Imagine you're in a shop looking at gadgets,Use this for something close and that for something a bit far
-
-    This printer right here is fast,Can you fix that computer over here.
-
-### Words like your and my are used to show possession. Your refers to something belonging to the person you are speaking to, while my refers to something that belongs to you
-
-    But hey, now your desk is juse like my desk.
-
-### Awesome is a word people use when they really like something. It's like saying very good! It's an informal way to show approval or admiration
-
-    Awesome. My computer and drawing tablet are great, too.
-
-### The pronoun they is often used to refer to a group of people or entities,They're is the contracted form of they are
-
-    Yeah, at this company, they're very attentive to these details. You are going to like it here if you are into cutting-edge gadgets.
-    They are very friendly clients. I love those templates! They are just my style.
-    In the tech department, they're always working on exciting projects.
-    They're going to the concert tonight.
-
-### The phrase you are into is an informal way to say that someone really likes something or is interested in a particular activity or topic
-
-    you are into football.
-    I really like playing the guitar. I am into it.
-
-### People often refer to items around them using this, that, these, and those
-
-    This is the computer right next to me.
-    That printer across the room is broken.
-    These are the chairs around the nearby table.
-    Those files in the distant cabinet are archived.
-
-### In English, a and an are indefinite articles. A is used before words that begin with a consonant sound, and an is used before words that begin with a vowel sound
-
-    An ergonomic chair and a mouse.
-
-### Remember that articles show if we are talking about something specific or something general
-
-    We are looking for a project manager to join our team.
-    This is the sun.
-
-### Asking if someone is ready to begin is a way to check if the person is prepared or eager to start a particular activity
-
-    Are you ready to begin?
-
-### When you're very hungry, you can emphasize this feeling by using the word so before hungry. This way, you're expressing a stronger emotion or feeling about how hungry you are
-
-    Wow! I'm so hungry.
-
-### To ask a question using it is, you change the order. Instead of it is, you say is it. This is how you turn a statement into a question in English,If a person asks you a direct question using is it
-
-    A: Is it lunch time?
-    Q: Yes, it is./No, it isn't.
-
-### To ask about someone's actions or plans in the present with the verb to be, you can use the structure are you at the beginning of the question. This combination of verb (are) and subject (you) helps form questions in the present simple tense
-
-    A: Are you eating here or are you going out?
-    Q: Today, I'm going out. I can show you some places around here.
-    A: Are you interested?
-    Q: of Course!
-
-### In questions, any is often used to inquire if there is at least one of something
-
-    Any favorite lunch spot around here, Sophie?
-
-### The phrase Is that ok for you? is used to ask if someone agrees with or accepts a suggestion or situation
-
-    Q: Is that ok for you?
-    A: Sounds great!
-
-### If a place is within walking distance, it means it's close enough to reach by walking and you don't need to use a vehicle
-
-    A: Is the cafe within waking distance?
-    Q: Yes,it's not far!/No,it's so far!
-
-### When two or more people decide to accompany each other to a place or event, they use a phrase to indicate they'll be going as a group
-
-    Come on! we can go together.
-
-### There are some questions you can use to friendly start a conversation. This is one of them
-
-    A: How is everthing?
-    Q: Everything is fine!
-
-### When you want to present one person to another, you can use the phrase let me introduce you to 'name' (name being the person's name)
-
-    Let me introduce you to Tom.
-
-### The phrase this is 'name' is used to present someone in a conversation. name refers to a person's name. It's a simple and direct way to make introductions
-
-    Magee, this is Alan.
-
-### The verb be has different forms based on the subject. For third person singular (he, she, it), the correct form is is
-
-    This/That is ***. 
-    He/She/It is ***. 
-
-### The word our is a possessive pronoun. It shows that something belongs to or is related to a group that includes the speaker
-
-    Brian, this is Tom. He's our new graphic designer and he is from Texas.
-
-### To show possession in English, you typically add 's to a name, like Sophie's desk. However, for names ending in s, you often just add an apostrophe
-
-    Server's maintenance, devices' manual.
-
-### The phrase I'm here to normally talks about purpose or intention
-
-    I'm here to give you access card.
-
-### Sometimes, people use phrases to ask about experiences, feelings, or opinions. How was it? is a general way to ask about something that just happened
-
-    A: How was it?
-    Q: It was amazing.
+### Dialogue 1: Maria introduces herslef to Tom
+
+    M: Hello! You're the new graphic designer,right?I'm Marira the team lead.
+    T: Yes, that's right! I'm Tom McKenzie,it's a pleasure to meet you.
+    M: Welcome aboard Tom.How do you like California so far?
+    T: I like it. It's different from Taxas, but i like it here.
+    M: Great! Let me show you to your desk.Do you see the desk with a drawing tablet and a computer? That's you workspace.
+    T: Everything looks great! Thanks for showing me around place Maria.
+
+### Dialogue 2: Tom meets the coworker next to him
+
+    T: Hi there.I'm Tom,I'm the new graphic designer.
+    S: Hi Tom. I'm Sophie.I'm a developer.Where you form Tom?
+    T: I'm from Taxas. How about you?
+    S: I'm from here in California.Welcome aboard.
+    T: Tanks. Everybody is so nice around here.
+    T: Hi,is this one of those standing desks?
+    T: It is good to stand up a little instead of just sitting all the time.
+    S: That's so true. I'm a bit inactive, sitting all the time.This is a good alternative for me.
+    S: But hey, now your desk is just like my desk,You're in luck.
+    T: Awesome.My computer and drawing tablet are great,too.
+    S: Yeah! At this company,they are very attentive to these details.You are going to like it here if you are into cutting-edge gadgets.
+    T: This is so coll. A standing desk, an ergonomic chair and an ergonomic mouse.Man, everything is perfect!
+    S: So nice to have someone so energetic like you in the team.Are you ready to begin?
+    T: Yes! I'm sure i am.
+
+### Dialogue 3: Tom and Sophie take a lunch break
+
+    T: Wow! I'm so hungry. Is it lunch time?
+    S: Yes, it is.
+    T: Are you eating here or are you going out?
+    S: Today,I'm going out. I can show you some places around here.Are you interested?
+    T: Of course! Any favorite lunch spot around here ,Sophie?
+    S: I know a nice one ,it's a Cafe right down the street. Is that ok for you?
+    T: Sounds great!
+    S: Yes,it's nice to have a break from the office.
+    T: it is, is the Cafe within walking distance?
+    S: Well. it's not far. Come on, we can go together.
+
+### Dialogue 4: Sophie introduces Brian to tom
+
+    S: Oh! Look who's here? Hi Brian. How is everything?
+    B: Sophie! Great to see you here.
+    S: Brian. Let me introduce you to Tom. Tom,this is Brian,he's a web developer. Brian. this is Tom. He's our new graphic designer and he is from Texas.
+    B: Sophie is a great workmate. She is very kind and helpful.
+    S: Oh. Come on ,Brian!
+    B: But it is true.She's the person to go to if you need help!
+
+### Dialogue 5: End of the first day
+
+    J: Hi! You'are Sarah,right? I'm Jake, from Security.I'm here to give you your access card.
+    S: Thanks, Jake. Is it contactless?
+    J: No, it isn't . It's the good-old swipe at the door.When you hear the click.It's unlocked, and you can get in or out.
+    S: Good to know.Thank you!
+    J: Well. It's five o'clock. I guess this is it your first day. How was it?
+    S: Good, really good. See you tomorrow,then?
+    J: Sure. have a great evening,see you!
 
 ## class 2
 
