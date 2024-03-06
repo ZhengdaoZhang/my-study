@@ -140,12 +140,12 @@
 
     S: Hey, Tom! I saw you taking lots of pics with your cell phone outside the building. Are you into photogaphy?
     T: Yes! I love it but i'm only pacticing.How about you? Do you have any hobbies?
-    S: That's coll! I like photogaphy, but I don't think of it as a hobby. I play the guitar in my feel time.
+    S: That's cool! I like photography, but I don't think of it as a hobby. I play the guitar in my feel time.
     T: Wow! Electric or acoustic?
-    S: Electric,for sure! Back to your hobbies. though, do you have any favorite photography themes?
+    S: Electric, for sure! Back to your hobbies. though, do you have any favorite photography themes?
     T: I like landscapes and street photography, mostly.
     T: And you? What kind of music do you like to play on your guitar?
     S: I enjoy classic rock. but any nice tune makes my day.
-    T: Cool.I want to hear you play some day.
+    T: Cool. I want to hear you play some day.
     S: Only if you show me your favorite pics.
     T: It's a deal.
