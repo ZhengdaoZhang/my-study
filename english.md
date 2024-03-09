@@ -166,3 +166,22 @@
     S: I do. She's supportive and she helps us a lot.
     S: Nice! Thanks for the information, Sophie.
     S: You're welcome. Maria is a fantastic leader to have. I think you're in good hands.
+
+### Dialogue 4: Talking about the Monday meetings
+
+    T: Tell me about our team meetings,Sophie .Do they happen every week?
+    S: Yes, they do. We have meetings on Monday mornings.
+    T: Hmm… Do we discuss all our ongoing projects in these meetings?
+    S: We do.It's a chance to update everyone on project progress.
+    T: Awesome. Do they usually last long?
+    S: Not too long. They usually take about 30 to 45 minutes.
+    T: That's reasonable. Do we have an agenda for each meeting?
+    S: Yes we do. Maria prepares the agenda in advance.
+    T: Good know. Do the meeting involve everyone on the team?
+    S: Absolutely. All the team members have a chance to speak, so everyone knows what the others are doing.
+    T: That's important. Does Maria assign tasks during these meetings?
+    S: Sometimes, but we normally discuss tasks we plan on tackling for the week.
+    T: Does this include brainstorming sessions?
+    S: Occasionally, yeah. it depends on the porject's needs.
+    T: I can't wait for the first meeting I'll attend.
+    S: Probably next Monday.
