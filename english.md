@@ -185,3 +185,16 @@
     S: Occasionally, yeah. it depends on the porject's needs.
     T: I can't wait for the first meeting I'll attend.
     S: Probably next Monday.
+
+### Dialogue 5: Knowing the area around the company
+
+    T: Hi Maria! I'm still getting to know the area. Is there an ATM nearby?
+    M: Yes, there is a bank just a few blocks away.
+    T: That's good to konw. Are there any parks around here?
+    M: Yes. there are a couple of park near here.They're great for a break.
+    T: How about restaurants? Are there any good restaurants in this neighborhood?
+    M: Yes. there are many restaurants within walking distance.
+    T: i.Is 
+    M:
+    T: How about bookstores and theaters?
+    M: Hmmm... There isn't any theater around here that i konw of. The bookstores i remember are all downtown.
