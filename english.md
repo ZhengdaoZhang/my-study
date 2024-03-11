@@ -202,3 +202,23 @@
     S: Malls are everywhere. I'm sure you can find them just by walking around a bit.
     T: Thanks for your help, Maria.
     S: You're' wellcome, Tom.
+
+## class 4
+
+    Learn how to talk about a typical workday and tasks
+
+### Dialogue 1: Tom ask Sophie about her routine
+
+    T: Hey Sophie, let me ask you about your daily routine as a web developer.What's your typical workday like?
+    S: Hi Tom. Well, my day usually workday stards at 8:30.I check my emails and reply to any urgent messages.
+    T: That's a good start. What do you do after that?
+    S: Then. I review my to-do list for the day and prioritize my tasks. I like to work on the most inportant ones frist.
+    T: That makes sense.How do you handle your projects?
+    S: I break down my projects into small tasks and set deadlines for them. It help me stay on track. During the day, I work on coding, test the websites, and debug issues.
+    T: Do you take breaks?
+    S: I take short breaks to stretch, have some coffee, or chat with colleagues.It helps me relax and focus.
+    T: And what about lunch?
+    S: When I don't go to a Cafe around here. I usually bring my lunch and eat at my desk while i check my progress.
+    T: Your routine is really well-organized. How do you manage your time?
+    S: I use this time management app to track how I spend my time.
+    T: Thanks for sharing, Sophie. I want to get more organized and your tips are a great help to me.
