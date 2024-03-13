@@ -222,3 +222,17 @@
     T: Your routine is really well-organized. How do you manage your time?
     S: I use this time management app to track how I spend my time.
     T: Thanks for sharing, Sophie. I want to get more organized and your tips are a great help to me.
+
+### Dialogue 2: Anna from HR tells Tom about the company routine
+
+    A: Hi Tom. Let me tell you what a regular day at our company normally look like. We start at 9:00. The frist thing to do is it log in your computer and check your emails.
+    T: Sounds good. What do I do after checking emails?
+    A: After that, you'll probably attend the daily team meeting at 9:30. During the meeting, the team discusses project updates.
+    T: I see. What about the rest of the day?
+    A: During the rest of the day, you usually work on your design projects, collaborate with the team, and attend meetings with clients when there are those meetings.
+    T: What time do we have our lunch break?
+    A: You have a one-hour lunch break around noon every day. Bring your lunch or go to one of the cafés nearby. The people from the team often do this.
+    T: How long are our workdays?
+    A: We typically finish at about 5. But that depends on project deadlines.
+    T: Thanks for explaining, Anna. It helps me to understand what to expect.
+    A: You are welcome.
