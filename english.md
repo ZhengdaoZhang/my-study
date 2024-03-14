@@ -236,3 +236,16 @@
     A: We typically finish at about 5. But that depends on project deadlines.
     T: Thanks for explaining, Anna. It helps me to understand what to expect.
     A: You are welcome.
+
+### Dialogue 3: Jake tells Sophie about his routine
+
+    S: So Jake! How's working in security? Do you deal with any danger?
+    J: No, not that much.In the morning, I have to check the security cameras to make sure they are working properly. I have to monitor the entrances and exits at all times.
+    S: What a responsibility. What else do you do?
+    J: I can't forget to inspect the alarm systems. They have to be in top condition in case of emergencies.
+    S: I see. Anything else on your checklist?
+    J: Yes, i conduct regular security sweeps. It's essential to ensure everything is secure.
+    S: And what about the security badges?
+    J: Oh!. I have to issue security badges to new employees and I can't forget to revoke access for people who leave the company. Access control is crucial.
+    S: These are a lot of responsibilities, Jake.
+    J: Well, yeah.Security is a top priority, and I have to make sure everything goes as expected.
