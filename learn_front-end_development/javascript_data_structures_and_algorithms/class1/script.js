@@ -1,6 +1,6 @@
 let xp = 0; //经验值
 let health = 100; //生命值
-let gold = 510; //金币
+let gold = 150; //金币
 let currentWeapon = 0; //当前武器
 let fighting; //当前战斗的怪物的index值
 let monsterHealth; //怪物的生命值
@@ -17,10 +17,10 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 const weapons = [
-  { name: 'stick', power: 5, gold: 10 },
-  { name: 'dagger', power: 30, gold: 30 },
-  { name: 'claw hammer', power: 50, gold: 50 },
-  { name: 'sword', power: 100, gold: 100 }
+  { name: 'stick', power: 5 },
+  { name: 'dagger', power: 30 },
+  { name: 'claw hammer', power: 50 },
+  { name: 'sword', power: 100 }
 ];
 const monsters = [
   {
@@ -141,13 +141,13 @@ function buyHealth() {
 
 function buyWeapon() {
   if (currentWeapon < weapons.length - 1) {
-    if (gold >= weapons[currentWeapon].gold) {
-      gold -= weapons[currentWeapon].gold;
-      inventory.push(newWeapon);
+    if (gold >= 30) {
+      gold -= 30;
       currentWeapon++;
       goldText.innerText = gold;
-      let newWeapon = inventory[currentWeapon].name;
+      let newWeapon = weapons[currentWeapon].name;
       text.innerText = "You now have a " + newWeapon + ".";
+      inventory.push(newWeapon);
       text.innerText += " In your inventory you have: " + inventory;
     } else {
       text.innerText = "You do not have enough gold to buy a weapon.";
@@ -163,11 +163,14 @@ function sellWeapon() {
   if (inventory.length > 1) {
     gold += 15;
     goldText.innerText = gold;
-    let currentWeapon = inventory.shift();
-    text.innerText = "You sold a " + currentWeapon + ".";
+    let selledWeapon = inventory.pop();
+    currentWeapon--;
+    text.innerText = "You sold a " + selledWeapon + ".";
     text.innerText += " In your inventory you have: " + inventory;
   } else {
     text.innerText = "Don't sell your only weapon!";
+    button2.innerText="Buy weapon (30 gold)";
+    button2.onclick=buyWeapon;
   }
 }
 
@@ -196,10 +199,10 @@ function goFight() {
 
 function attack() {
   text.innerText = "The " + monsters[fighting].name + " attacks.";
-  text.innerText += " You attack it with your " + inventory[currentWeapon].name + ".";
+  text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
   health -= getMonsterAttackValue(monsters[fighting].level);
   if (isMonsterHit()) {
-    monsterHealth -= inventory[currentWeapon].power + Math.floor(Math.random() * xp) + 1;
+    monsterHealth -= weapons[currentWeapon].power + Math.floor(Math.random() * xp) + 1;
   } else {
     text.innerText += " You miss.";
   }
@@ -214,7 +217,7 @@ function attack() {
       defeatMonster();
     }
   }
-  if (Math.random() <= .1 && inventory.length !== 1) {
+  if (Math.random() <= .9 && inventory.length !== 1) {
     text.innerText += " Your " + inventory.pop() + " breaks.";
     currentWeapon--;
   }
