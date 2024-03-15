@@ -106,14 +106,13 @@ const playSong = (id) => {
 
 const pauseSong = () => {
     userData.songCurrentTime = audio.currentTime;
-
     playButton.classList.remove("playing");
     audio.pause();
 };
 
 const playNextSong = () => {
     if (userData?.currentSong === null) {
-        if (!userData?.songs[0]) {
+        if (!userData.songs.length) {
             return alert("the play list is empty!")
         }
         playSong(userData?.songs[0].id);
@@ -128,9 +127,11 @@ const playNextSong = () => {
 };
 
 const playPreviousSong = () => {
-    if (userData?.currentSong === null) return;
-    else {
-
+    if(!userData.songs.length){
+        return alert("the play list is empty!")
+    }else if (userData?.currentSong === null) {
+        return 
+    }else {
         const currentSongIndex = getCurrentSongIndex();
         const previousSong = userData?.songs[currentSongIndex - 1];
         if (!previousSong) {
@@ -141,6 +142,9 @@ const playPreviousSong = () => {
 };
 
 const shuffle = () => {
+    if (!userData.songs.length) {
+        return alert("the play list is empty!")
+    }
     userData?.songs.sort(() => Math.random() - 0.5);
     userData.currentSong = null;
     userData.songCurrentTime = 0;
@@ -244,7 +248,7 @@ const getCurrentSongIndex = () => userData?.songs.indexOf(userData?.currentSong)
 
 playButton.addEventListener("click", () => {
     if (userData?.currentSong === null) {
-        if (!userData?.songs[0]) {
+        if (!userData?.songs.length) {
             return alert("the play list is empty!")
         }
         playSong(userData?.songs[0].id);
