@@ -1,9 +1,13 @@
 # Javascript algorithms and data structures certification
 
-    [a2-english-for-developers](https://www.freecodecamp.org/learn/a2-english-for-developers)
+    [JavaScript Algorithms and Data Structures (Beta)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
+    Developers use HTML and CSS to control the content and styling of a page. And they use JavaScript to make that page interactive.
+    In this JavaScript Algorithm and Data Structures Certification, you'll learn the JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more.
+    You'll also learn about Object Oriented Programming (OOP), Functional Programming, algorithmic thinking, how to work with local storage, and how to fetch data using an API.
 
 ## part 1
 
+    level-1
 
 ### class 1: Learn Basic JavaScript Building a Role Playing Game
 
