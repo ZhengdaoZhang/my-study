@@ -1,3 +1,3 @@
 # Hello world
 
-this is my learn knowledge repository.
+this is my knowledge repository.
