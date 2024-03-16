@@ -210,7 +210,7 @@ Learn how to talk about a typical workday and tasks
 ### Dialogue 1: Tom ask Sophie about her routine
 
 T: Hey Sophie, let me ask you about your daily routine as a web developer.What's your typical workday like?
-S: Hi Tom. Well, my day usually workday stards at 8:30.I check my emails and reply to any urgent messages.
+S: Hi Tom. Well, my day usually workday starts at 8:30.I check my emails and reply to any urgent messages.
 T: That's a good start. What do you do after that?
 S: Then. I review my to-do list for the day and prioritize my tasks. I like to work on the most inportant ones frist.
 T: That makes sense.How do you handle your projects?
