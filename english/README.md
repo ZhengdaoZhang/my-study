@@ -198,7 +198,7 @@ T: Fantastic! Is there anything else interesting to check out?
 M: Absolutely! There's a gym.There are also great coffee shops not too far away.
 T: How about bookstores and theaters?
 M: Hmmm...there isn't any theater around here that i konw of. The bookstores i remember are all downtown. There's a bus that stops two blocks away.
-T: Oh. How about shopping mall? 
+T: Oh. How about shopping mall?
 S: Malls are everywhere. I'm sure you can find them just by walking around a bit.
 T: Thanks for your help, Maria.
 S: You're' wellcome, Tom.
