@@ -249,3 +249,15 @@ S: And what about the security badges?
 J: Oh!. I have to issue security badges to new employees and I can't forget to revoke access for people who leave the company. Access control is crucial.
 S: These are a lot of responsibilities, Jake.
 J: Well, yeah.Security is a top priority, and I have to make sure everything goes as expected.
+
+### Dialogue 4: James explains compliance
+
+J: Hey, Linda. Today, I want to talk to you about compliance and the obligations we have in our daily tasks.
+L: Hey, James. So what is the meaning of 'compliance'? Can you tell me?
+J: Of course. Compliance is when we put specific rules, policies, and regulations that are important to our industry into practice. It helps promote ethics at the workplace.
+L: So, what do we have to comply with in our projects?
+J: Great question! We have to comply with data protection regulations, security standards, and our company's code of conduct. It's essential to protect sensitive information and maintain our reputation.
+L: Do we have to report every security incident?
+J: Absolutely. If you see any security breaches or incidents, you have to report them immediately.Reporting helps us address issues effectively.
+L: James, what about training? Do we have to attend training sessions regularly?
+J: Yes, you have to attend the training every year. It helps you stay updated on the latest regulations and best practices.
