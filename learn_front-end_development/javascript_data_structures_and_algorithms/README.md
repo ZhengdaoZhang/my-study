@@ -28,7 +28,12 @@ In this project, you'll code a basic MP3 player using HTML, CSS, and JavaScript.
 Woring with dates in Javascript can be challengeing. You have to navigate various methods, formats, and time zones. In this object, you'll learn how to work with the Javasciprt Date Object, including its methods and propertis. You'll also learn how to correctly format dates.
 This project will cover concepts such as the getDate(), getMonth(), and getFullYear() methods.
 
-### certification
+### certification 1
 
 This is one of required projects to earn your certification.
 For this project, you'll build an application that checks whether a given word is palindrome.
+
+### class 5: Learn modern JavaScript methods by building a footeball team cards
+
+One common aspect of building web application: proessing datasets, and then outputting information to the screen. In this sports team cards project, you'll learn how to work with DOM manipulation, object destructuring, event handling, and data filtering.
+This project will cover concepts like switch statements, default parameters, Object.freeze(), the map() method, and more.
