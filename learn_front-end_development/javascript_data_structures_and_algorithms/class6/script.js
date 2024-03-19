@@ -10,8 +10,8 @@ const titleInput = document.getElementById("title-input");
 const dateInput = document.getElementById("date-input");
 const descriptionInput = document.getElementById("description-input");
 
-let taskData = [];
-let currentTask = {};
+let taskData = []; //任务列表
+let currentTask = {}; //修改时选择的任务
 
 const addOrUpdateTask = () => {
     if (!titleInput.value) {
