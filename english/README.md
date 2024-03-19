@@ -261,3 +261,25 @@ L: Do we have to report every security incident?
 J: Absolutely. If you see any security breaches or incidents, you have to report them immediately.Reporting helps us address issues effectively.
 L: James, what about training? Do we have to attend training sessions regularly?
 J: Yes, you have to attend the training every year. It helps you stay updated on the latest regulations and best practices.
+
+### Dialogue 5: Brian asks Sarah about her as a QA tester
+
+B: Hey, Sarah! How's work as QA tester? Is it really challenging?
+S: Sometimes. Let me tell you how my week usually goes.
+B: Go on, please. What's your weekly routine like?
+S: Well, on weekdays, I usually wake up at around 6 and get ready for work.
+B: That's early! What's your morning routine?
+S: In the morning, I have breakfast at home and then head to the office at 8.
+B: What's the first thing you do when you arrive?
+S: After I arrive, I check my emails and messages from the team. It helps me plan my day.
+B: Great. What's next?
+S: After that, during the morning, I start testing the software. I have a different task to do each day. For example, on Mondays, I test the login process.
+B: So, you test different parts of the software each day?
+S: Exactly! At noon, I take a break and have lunch at the café down the street.Then, in the afternoon, I test other features, like the payment system.
+B: I see. What else do you do during the week?
+S: On Wednesdays, we have a team meeting at 3. Next, I write test reports and document any bugs I found during the day.
+B: Sounds like a very productive week!
+S: Yes, there are a lot of things, but I like collaborating to improve the quality of our software.
+B: Thanks for sharing, Sarah! It's interesting to know what you do.
+S: You're welcome. Brian. When we have some time, I want to ask you about your week as a dev, okay?
+B: Sure thing!
