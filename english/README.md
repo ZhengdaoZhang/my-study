@@ -283,3 +283,21 @@ S: Yes, there are a lot of things, but I like collaborating to improve the quali
 B: Thanks for sharing, Sarah! It's interesting to know what you do.
 S: You're welcome. Brian. When we have some time, I want to ask you about your week as a dev, okay?
 B: Sure thing!
+
+## class 5
+
+In this course, you'll learn how to talk about details of your routine and share them with someone else. It mainly focuses on the structures used for declaring routine actions and related vocabulary.
+
+### Dialogue 1: Learn how to discuss your morning or evening routine
+
+J: Good morning, Sarah! Wow, it seems like you have a ton of energy this morning! What do you do to start the day off right?
+S: Hey, James! Thanks. Look, I don't do anything out of the ordinary, I think.
+S: I usually wake up around 7. The first thing I do is stretch a bit to wake up. Then, I go straight to make a cup of coffee. This my morning fuel!
+J: Coffee is always a good start! What do you do after that?
+S: After coffee, I like to take a quick shower to freshen up. It helps me feel more alert and ready for the day. Then. I get dressed, jeans and T-shirt, you know. Our company has a relaxed dress code and i like to keep it casual.
+J: Yeah, me too. What's next in your routine?
+S: Well, after that, I have a balanced breakfast. I often have cereal with some fruit and a glass of orange juice. Breakfast is important to keep my energy up during the morning.
+J: An early coffee and then breakfast! I never thought of that!
+S: It helps me stay awake early in the morning! Anyway, before leaving for work, I like to check my emails and messages to see if there are any urgent updates from the team. I like to stay informed about any important tasks for the day.
+J: I can't imagine being so productive even before coming to work! Thanks for sharing, Sarah. I'll try some of these tips. Maybe I can get more productive in the morning as well.
+S: It's my pleasure. It's the consistency that helps me start the day off on the right foot.
