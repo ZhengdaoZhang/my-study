@@ -301,3 +301,16 @@ J: An early coffee and then breakfast! I never thought of that!
 S: It helps me stay awake early in the morning! Anyway, before leaving for work, I like to check my emails and messages to see if there are any urgent updates from the team. I like to stay informed about any important tasks for the day.
 J: I can't imagine being so productive even before coming to work! Thanks for sharing, Sarah. I'll try some of these tips. Maybe I can get more productive in the morning as well.
 S: It's my pleasure. It's the consistency that helps me start the day off on the right foot.
+
+### Dialogue 2: Consulting a welless expert
+
+S: So, I'm here because I feel sleepy during the mornings. I don't get productive until it's almost midday. Do you have any tips on how to have a healthy morning routine?
+E: Absolutely! My first suggestion is to not hit the snooze button multiple times. It may be tempting, but it disrupts your sleep cycle and you may feel groggy during the day. Set one alarm and get up when it rings
+S: That's a good point. What else?
+E: Another thing: don't skip breakfast. Breakfast gives you the energy to start the day. If you skip it, you probably compensate later by eating too much or you feel sluggish in the morning. Have a balanced breakfast instead.
+S: I have a friend who does that in her routine. Any other suggestions?
+E: Yes, don't start your day by checking your phone or emails immediately. It creates stress and makes you feel like you have to rush. Take a few minutes for yourself. For example, you can stretch or do some breathing exercises to clear your mind.
+S: Sophie That's a good idea.
+E: One more thing: don't rush during your morning routine. Give yourself time to get ready without running around. If you start the day feeling relaxed, you may have a more productive day.
+S: Wow, thanks! I'll try to include these changes into my morning routine.
+E: You're welcome! And remember: the small changes make a big difference. Your morning starts well when you have a good night's sleep. Don't forget to get enough sleep to feel well-rested in the morning. Have a great morning!
