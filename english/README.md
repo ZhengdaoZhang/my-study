@@ -310,7 +310,7 @@ S: That's a good point. What else?
 E: Another thing: don't skip breakfast. Breakfast gives you the energy to start the day. If you skip it, you probably compensate later by eating too much or you feel sluggish in the morning. Have a balanced breakfast instead.
 S: I have a friend who does that in her routine. Any other suggestions?
 E: Yes, don't start your day by checking your phone or emails immediately. It creates stress and makes you feel like you have to rush. Take a few minutes for yourself. For example, you can stretch or do some breathing exercises to clear your mind.
-S: Sophie That's a good idea.
+S: That's a good idea.
 E: One more thing: don't rush during your morning routine. Give yourself time to get ready without running around. If you start the day feeling relaxed, you may have a more productive day.
 S: Wow, thanks! I'll try to include these changes into my morning routine.
 E: You're welcome! And remember: the small changes make a big difference. Your morning starts well when you have a good night's sleep. Don't forget to get enough sleep to feel well-rested in the morning. Have a great morning!
