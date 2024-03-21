@@ -42,3 +42,13 @@ This project will cover concepts like switch statements, default parameters, Obj
 
 Local storage is a web browser feature that lets web applications store key-value pairs persistently within a user's browser. This allows web apps to save data during one session, then retrieve it in a later page session.
 In this TODO application, you'll learn how to handle form inputs, manage local storage, perform CRUD (Create, Read, Update, Delete) operations on tasks, implement event listeners, and toggle UI elements.
+
+### class 7: Learn recursion by building a decimal to binary converter
+
+Recursion is a programing concept where a function calls itself. This can reduce a complex problem into simpler sub-problems, until they become straightforward to solve.
+In this project. You'll build a decimal-to-binary converter using JavaScript. You'll learn the fundamental concepts of recursion, explore the call stack and build out a visual representation of the recursion process through an animation.
+
+### certification 2
+
+This is one of required projects to earn your certification.
+For this project, you'll build an application that converts integers to Roma numerals
