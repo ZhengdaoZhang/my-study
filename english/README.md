@@ -314,3 +314,20 @@ S: That's a good idea.
 E: One more thing: don't rush during your morning routine. Give yourself time to get ready without running around. If you start the day feeling relaxed, you may have a more productive day.
 S: Wow, thanks! I'll try to include these changes into my morning routine.
 E: You're welcome! And remember: the small changes make a big difference. Your morning starts well when you have a good night's sleep. Don't forget to get enough sleep to feel well-rested in the morning. Have a great morning!
+
+### Dialogue 3: Evening routine with kids
+
+J: Hi Sarah. Sophie said you have very good tips for a gread morning. I want to have a good evening routine, too. But it's complicated with my two kids running around. Do you have any ideas that could help.
+S: I totally understand, Jake. It can be tough. Let's see if we can come up with some ideas that include the kids.
+J: Great! I usually get home around 6. After that, it's a bit chaotic.
+S: You can start by involving your kids in light activities. Go for a family walk or play a short outdoor game together when you get home. It's a great way to have fun and stay active.
+J: Nice! What about dinner? It's always a rush.
+S: Plan simple and quick meals for weekdays. Involve the kids in setting the table as well.
+J: Good idea! After dinner, I usually help them with their homework.
+S: That's important! While they do homework, use the time to stretch or relax a bit. This also helps with your self-care.
+J: Amazing. Hmm… How about bedtime?
+S: Keep a consistent bedtime routine for your kids. Read them a bedtime story or talk to them about nice, calm things at bedtime. This helps them relax and give you some quiet time after they go to sleep.
+J: That makes sense! What do you do before going to sleep, Sarah?
+S: I like to relax by reading a book or listening to music. Sometimes, I meditate. If your kids are asleep, you can do these things too.
+J: Great suggestions, Sarah! Thanks for helping me with my evening routine.
+S: Anytime, Jack.
