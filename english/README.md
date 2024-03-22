@@ -331,3 +331,27 @@ J: That makes sense! What do you do before going to sleep, Sarah?
 S: I like to relax by reading a book or listening to music. Sometimes, I meditate. If your kids are asleep, you can do these things too.
 J: Great suggestions, Sarah! Thanks for helping me with my evening routine.
 S: Anytime, Jack.
+
+### Dialogue 4: Brian and Maria talk about eventful evenings
+
+B: Hey Maria, is it true that you're never home in the evenings? How do you do that?
+M: Hi Brian. Well, yeah! I like doing fun things in the evening, so I go out a lot. On Mondays, I have dance classes from 6 to 7:30. I love dancing.
+B: Oh, great! What about Tuesdays?
+M: On Tuesdays, I learn Japanese. I take online lessons at 7. I think it's the only day I am home so early. Then, on Wednesdays, I go to a local theater group. Practice goes until 9 PM. We perform small plays. It's really fun.
+B: That's exciting! How about Thursdays?
+M: Thursdays are for watching shows. I look for live concerts or theater plays. It's my favorite time to relax.
+B: Wow! Do you rest at home on Fridays at least?
+M: Not at all. I leave the weekends for that. On Fridays, I like to hang out with friends. We normally meet at a bar, chat and have something to eat and drink. But I'm not really a night owl, so I like to be back home by 9:30 tops.
+B: So many activities! I don't think I could keep up that pace. But it's nice to know you enjoy it to the fullest, Maria. I think I'll try to go out more often in the evening as well.
+M: Sure, Brian! Just don't forget to give yourself time to rest. Find what your interests are and have some fun!
+
+### Dialogue 5: Sophia and Brian talk about the weekend
+
+S: Hey Brian. TGIF, right? Do you have any plans for the weekend?
+B: Nothing out of the ordinary, Sophie. On Saturday, I wake up early, at 7:00. I run in the park near my place in the morning. In the afternoon, I visit my parents and I have lunch with them.
+S: Nice! On Saturday, I usually sleep until 9:30. In the morning, I do some house cleaning. In the afternoon, I watch a movie at home, or I go out with friends to do some window-shopping at the mall.
+B: And on Sunday?
+S: On Sunday, I have a lazy morning. I just stay at home and play some video games on my console. In the evening, I make dinner and go to sleep early, because, on Monday, it's back to work again.
+B: I have a relaxing Sunday, too. In the morning and in the evening, I work on a personal coding project. In the afternoon, I take a break and go for a quick walk in the park.
+S: That's a good mix of indoor and outdoor activities! I don't work at the computer on weekends like you, though. I save that for the weekdays, I suppose.
+B: I know, right? But it is a personal project and I like it a lot, so I don't mind spending some of my time on it.
