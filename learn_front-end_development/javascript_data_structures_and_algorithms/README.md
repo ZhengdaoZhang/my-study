@@ -52,3 +52,8 @@ In this project. You'll build a decimal-to-binary converter using JavaScript. Yo
 
 This is one of required projects to earn your certification.
 For this project, you'll build an application that converts integers to Roma numerals
+
+### class 8: Learn basic algorithmic thinking by build a number sorter
+
+In computer science, there are fundamental sorting algorithms that all developers should learn. In this number sorter project, you'll learn how to implement and visualize different sorting algorithms like bubble sort, selection sort, and insertion sort – all with JavaScript.
+This project will help you understand the fundamental concepts behind these algorithms, and how you can apply them to sort numerical data in web applications.
