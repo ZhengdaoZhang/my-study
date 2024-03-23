@@ -355,3 +355,22 @@ S: On Sunday, I have a lazy morning. I just stay at home and play some video gam
 B: I have a relaxing Sunday, too. In the morning and in the evening, I work on a personal coding project. In the afternoon, I take a break and go for a quick walk in the park.
 S: That's a good mix of indoor and outdoor activities! I don't work at the computer on weekends like you, though. I save that for the weekdays, I suppose.
 B: I know, right? But it is a personal project and I like it a lot, so I don't mind spending some of my time on it.
+
+## class 6
+
+Learn how to describe your current project.
+In this course, you'll learn how to talk about the projects that you are involved in and how to inform others of you are doing in these projects. It mainly focuses on the structures used for informing it and on the related vocabulary.
+
+### Dialogue 1: Sophie and James discuss their projects
+
+S: Hey James, what's your cybersecurity project about?
+J: Hi Sophie! I'm checking our network for problems. We want to be safe from hackers. I'm using special tools to see where we might have problems, and then I have to fix them.
+S: That's important work. I'm helping our team learn how to stay safe online. We're taking some lessons and practicing what to do, if someone tries to steal our identity.
+J: That's great, Sophie! The two of us are doing some important work.
+
+### Dialogue 2: Data analysis team discuss thei projects
+
+B: Hi Sarah, what are you doing now?
+S: Hi Bob! I'm looking at customer data to find patterns. We're trying to understand what our customers like and what they buy. But we're not having any luck at the moment.
+B: Interesting! I'm making pictures with our data for our reports. We think it may help people understand them better. I'm using some tools to help me.
+S: Pictures can be great to explain things. We're not using pictures, but it's definitely fun to work with data like this.
