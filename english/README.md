@@ -374,3 +374,29 @@ B: Hi Sarah, what are you doing now?
 S: Hi Bob! I'm looking at customer data to find patterns. We're trying to understand what our customers like and what they buy. But we're not having any luck at the moment.
 B: Interesting! I'm making pictures with our data for our reports. We think it may help people understand them better. I'm using some tools to help me.
 S: Pictures can be great to explain things. We're not using pictures, but it's definitely fun to work with data like this.
+
+### Dialogue 3: Maria and Mark talk about their projects
+
+Maria: Hi Mark, how's the project going?
+Mark: Hi Maria! I'm testing a new software to find problems. It's nice experience so far, but we're doning more tests to make sure everything works. We're also asking some people to tell us what they think. It's a bit busy, but I'm learning a lot.
+Maria: That's good to hear. I'm managing the team that's making a new part for the client's platform. We're trying to work on it and talk to the client to make sure they like it.
+Mark: Nice. Good luck there.
+
+### Dialogue 4: Brian talks to Amy about their projects
+
+A: Hi, Brian. What's happening with your project?
+B: Hey Amy! I'm not working on anything big at the moment. I'm taking a short break to learn more about front end. It's good to stop a bit and refresh my skills. How about you?
+A: That sounds like a good idea, Brian. I'm currently working on a series of blog posts about tech trends. It's exciting. I'm interviewing some experts and I'm getting information for the articles. It's keeping me busy, but I enjoy it.
+B: That sounds interesting! Are you using any new tools or strategies to create engaging content?
+A: Yes, I am. I'm experimenting with video interviews and interactive infographics to make the content more engaging for our readers. It's a bit challenging, but I'm learning a lot in the process.
+B: That's great, Amy! Tell us when the blog posts are out. I'm looking forward to reading them.
+
+### Dialogue 5: Bob and Sarah talk about their projects
+
+B: Hi Sarah, what are you up to these days?
+S: Hi Bob! I'm not working on any data projects at the moment. I'm taking some time off to learn new things. I'm attending online courses in data visualization, and I'm also exploring creative writing. It's a bit different from my usual work, but I'm enjoying the change.
+B: That's a productive break, Sarah. Are you finding the courses helpful?
+S: Absolutely! I'm learning new skills that I believe will be valuable in my future projects. By the way, what's keeping you busy these days?
+B: Well, I'm not currently working on any major data analysis projects either. I'm taking some time to review our data security protocols. I'm supposed to figure out if our current practices are robust enough to protect sensitive information. It's essential to ensure our data is secure.
+S: I agree. Keeping our data safe is a top priority.
+B: Indeed. It's a continuous effort to adapt to new security challenges.
