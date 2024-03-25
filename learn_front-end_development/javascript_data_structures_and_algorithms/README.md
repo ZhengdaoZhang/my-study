@@ -62,3 +62,9 @@ This project will help you understand the fundamental concepts behind these algo
 
 As you expand your Javascript skills, you'll want to get comfortable with array manipulation methods, such as map(), reduce(), and filter().
 In this statistics calculator project, you'll gain experience with handing user input, DOM manipulation, and methods chaining. You'll get practice by performing statistical calculations like mean, mode, variance, and standard deviation.
+
+### class 10: Learn functional programming by building a spreadsheet
+
+Functional programming is popular approach to software development. In functional programming, developer organize code into small functions. then combine those functions to build complex programs.
+In this spreadsheet application project, you'll learn about parsing and evaluating mathematical expressions. implementing spreadsheet functions. handling cell references. and creating interactive web interfaces. You'll learn how to dynamically update the page based on user input.
+This project will cover concepts like the map() method, find() method, parseInt() method, the includes() method.
