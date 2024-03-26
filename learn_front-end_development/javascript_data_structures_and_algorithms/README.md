@@ -1,8 +1,6 @@
 # Javascript algorithms and data structures certification
 
-[JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
-
-## part 1
+## [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
 
 Developers use HTML and CSS to control the content and styling of a page. And they use JavaScript to make that page interactive.
 In this JavaScript Algorithm and Data Structures Certification, you'll learn the JavaScript fundamentals like variables, arrays, objects, loops, functions, the DOM and more.
@@ -28,7 +26,7 @@ In this project, you'll code a basic MP3 player using HTML, CSS, and JavaScript.
 Woring with dates in Javascript can be challengeing. You have to navigate various methods, formats, and time zones. In this object, you'll learn how to work with the Javasciprt Date Object, including its methods and propertis. You'll also learn how to correctly format dates.
 This project will cover concepts such as the getDate(), getMonth(), and getFullYear() methods.
 
-### certification 1
+### certification 1: Build a palindrome checker project
 
 This is one of required projects to earn your certification.
 For this project, you'll build an application that checks whether a given word is palindrome.
@@ -48,7 +46,7 @@ In this TODO application, you'll learn how to handle form inputs, manage local s
 Recursion is a programing concept where a function calls itself. This can reduce a complex problem into simpler sub-problems, until they become straightforward to solve.
 In this project. You'll build a decimal-to-binary converter using JavaScript. You'll learn the fundamental concepts of recursion, explore the call stack and build out a visual representation of the recursion process through an animation.
 
-### certification 2
+### certification 2: Build a Roma numeral converter project
 
 This is one of required projects to earn your certification.
 For this project, you'll build an application that converts integers to Roma numerals
@@ -73,3 +71,8 @@ This project will cover concepts like the map() method, find() method, parseInt(
 
 Regular expressions, often shortened to "regex" or "regexp", are patterns that help programmers match, search and replace text. Rugular expressions are powerful. but can be difficult to understand because they use so many special characters.
 In this spam filter project, you'll learn about capture groups, positive lookaheads, negative lookaheads, and other techniques to match any text you want.
+
+### certification 3: Build a telephone number validator project
+
+This is one of the required projects to claim your certification.
+For this project, you'll build an application that checks if a number is a valida United States phone number.
