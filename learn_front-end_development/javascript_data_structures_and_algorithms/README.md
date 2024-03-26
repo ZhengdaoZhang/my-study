@@ -68,3 +68,8 @@ In this statistics calculator project, you'll gain experience with handing user 
 Functional programming is popular approach to software development. In functional programming, developer organize code into small functions. then combine those functions to build complex programs.
 In this spreadsheet application project, you'll learn about parsing and evaluating mathematical expressions. implementing spreadsheet functions. handling cell references. and creating interactive web interfaces. You'll learn how to dynamically update the page based on user input.
 This project will cover concepts like the map() method, find() method, parseInt() method, the includes() method.
+
+### class 11: Learn Regular Expressions by building a sapm filter
+
+Regular expressions, often shortened to "regex" or "regexp", are patterns that help programmers match, search and replace text. Rugular expressions are powerful. but can be difficult to understand because they use so many special characters.
+In this spam filter project, you'll learn about capture groups, positive lookaheads, negative lookaheads, and other techniques to match any text you want.
