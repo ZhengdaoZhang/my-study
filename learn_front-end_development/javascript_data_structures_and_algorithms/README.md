@@ -82,3 +82,8 @@ For this project, you'll build an application that checks if a number is a valid
 OOP, or Object Oriented Programming, is one of the major approaches to the software development process. In OOP, developers use objects and classes to structure thier code.
 In this shopping cart project, you'll learn how to define classes and use them. You'll create class instance and implement methods for data manipulation.
 This project will cover concepts like the ternary operator, the spread operator, the this keyword, and more.
+
+### class 13: Learn intermediate OOP by building a platformer game
+
+Coding a game is a great way to grasp fundamental programming principles, while also creating an interactive gaming exprience.
+In this platformer game object, you'll continue to learn about classes, objects, inheritance, and encapsulation. You'll also learn how to design and organize game elements efficiently and gain insights into problem-solving and code reusability.
