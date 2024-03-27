@@ -76,3 +76,9 @@ In this spam filter project, you'll learn about capture groups, positive lookahe
 
 This is one of the required projects to claim your certification.
 For this project, you'll build an application that checks if a number is a valida United States phone number.
+
+### class 12: Learn basic OOP by building a shopping cart
+
+OOP, or Object Oriented Programming, is one of the major approaches to the software development process. In OOP, developers use objects and classes to structure thier code.
+In this shopping cart project, you'll learn how to define classes and use them. You'll create class instance and implement methods for data manipulation.
+This project will cover concepts like the ternary operator, the spread operator, the this keyword, and more.
