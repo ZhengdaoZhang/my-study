@@ -87,3 +87,9 @@ This project will cover concepts like the ternary operator, the spread operator,
 
 Coding a game is a great way to grasp fundamental programming principles, while also creating an interactive gaming exprience.
 In this platformer game object, you'll continue to learn about classes, objects, inheritance, and encapsulation. You'll also learn how to design and organize game elements efficiently and gain insights into problem-solving and code reusability.
+
+### class 14: Learn intermediate algorithemic thinking  by building a dice game
+
+Algorithmic thinking involves the ability to break down complex problems into sequence of well-defined, step-by-step instructions.
+In this Dice game project, you'll learn how to manage game state, implement game logic for rolling dice, keep score, and applying rules for various combinations.
+This project covers concepts such as event handing, array manipulation, conditional logic, and updating the user interface dynamically based on game state.
