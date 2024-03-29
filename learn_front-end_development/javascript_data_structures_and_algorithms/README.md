@@ -93,3 +93,8 @@ In this platformer game object, you'll continue to learn about classes, objects,
 Algorithmic thinking involves the ability to break down complex problems into sequence of well-defined, step-by-step instructions.
 In this Dice game project, you'll learn how to manage game state, implement game logic for rolling dice, keep score, and applying rules for various combinations.
 This project covers concepts such as event handing, array manipulation, conditional logic, and updating the user interface dynamically based on game state.
+
+### certification 4: Build a cash register porject
+
+This is one of required projects to earn your certification.
+For this project, you'll build a cash register web app.
