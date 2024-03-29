@@ -400,3 +400,19 @@ S: Absolutely! I'm learning new skills that I believe will be valuable in my fut
 B: Well, I'm not currently working on any major data analysis projects either. I'm taking some time to review our data security protocols. I'm supposed to figure out if our current practices are robust enough to protect sensitive information. It's essential to ensure our data is secure.
 S: I agree. Keeping our data safe is a top priority.
 B: Indeed. It's a continuous effort to adapt to new security challenges.
+
+## class 7
+
+Learn how to ask and share about educational and professional background.
+In this course, you'll learn how to ask about another person's educational and professional backgrounds and you'll learn to share information about your background as well.
+
+### Dialogue 1: A job interview
+
+A: Good afternoon! Thanks for coming in for this interview. Can you tell me about your previous job experiences?
+C: Good afternoon! Sure! I was programmer at Acme Tech.
+C: I was there for three years. I was responsible for developing web applications and maintaining the company's database. I was also part of the software update team.
+A: That's excellent. Were there any specific projects you'd like to mention?
+C: Yes, in one of my team's projects, we were involved in the development of an e-commerce platform. We were responsible for the checkout process, and it was a successful implementation.
+A: Great! Can you tell me about your qualifications? Were you educated in computer science?
+S: Yes. I have a bachelor's degree in computer science from California State University. During my studies, I was introduced to various programming languages and software development principles.
+A: Wonderful! We value candidates with a strong educational background. Thank you for sharing your experiences with us.
