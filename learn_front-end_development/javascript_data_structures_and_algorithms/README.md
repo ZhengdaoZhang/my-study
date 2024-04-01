@@ -109,3 +109,8 @@ This project will also teach you how to paginate your data so you can load resul
 
 Javascript is an asynchronous programming language. And this project will help you gain proficiency in asynchronous concepts. You'll code your own freeCodeCamp forum leaderboard.
 This project will cover the Fetch API, promises, Async/Await, and the try...catch statement.
+
+### certification 5: Building a Pokémon search app
+
+This is one of required projects to earn your certification.
+For this project, you'll build a Pokémon search app.
