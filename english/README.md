@@ -416,3 +416,13 @@ C: Yes, in one of my team's projects, we were involved in the development of an 
 A: Great! Can you tell me about your qualifications? Were you educated in computer science?
 S: Yes. I have a bachelor's degree in computer science from California State University. During my studies, I was introduced to various programming languages and software development principles.
 A: Wonderful! We value candidates with a strong educational background. Thank you for sharing your experiences with us.
+
+### Dialogue 2: Another job interview
+
+A: Hello! Thanks for coming in today. Could you tell me about your previous roles and responsibilities?
+S: Hello! Certainly. I worked at Mock Corporation for five years. I was part of a team of software engineers, and we were responsible for developing and maintaining various applications. Our primary focus was creating user-friendly software.
+A: That's great to hear. Were the members of the team involved in any specific achievements or projects?
+S: Yes, our team was involved in a project to redesign the company's website. We were responsible for implementing new features and ensuring the website had fast performance. It was a collaborative effort, and we were able to deliver the project on time.
+A: Excellent! Can you share details about your educational background? Were you trained in a specific field?
+S: Yes. I have a master's degree in computer science. My studies were intensive, and I was introduced to many different methodologies.
+A: Impressive! We appreciate candidates with strong educational backgrounds and practical experience. Thanks a lot for coming to the interview.
