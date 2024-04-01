@@ -99,8 +99,13 @@ This project covers concepts such as event handing, array manipulation, conditio
 This is one of required projects to earn your certification.
 For this project, you'll build a cash register web app.
 
-### Learn asynchronous programming by building an FCC authors page
+### class 15: Learn fetch and promises by building an FCC authors page
 
 One common aspect of web development is learning how to fetch data from an external API, then work with asynchronous JavaScript.
 This freeCodeCamp authors page project will show you how to use the fetch method. then dynamically update the DOM to display the fetched data.
 This project will also teach you how to paginate your data so you can load results batches.
+
+### class 16: Learn Asynchronous programming by building an FCC forum leaderboard
+
+Javascript is an asynchronous programming language. And this project will help you gain proficiency in asynchronous concepts. You'll code your own freeCodeCamp forum leaderboard.
+This project will cover the Fetch API, promises, Async/Await, and the try...catch statement.
