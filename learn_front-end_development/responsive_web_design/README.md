@@ -15,3 +15,8 @@ In this course, you'll learn the most common HTML tags by building your own cat 
 
 CSS tells the browser how to display your webpage. You can use CSS to set the color, font, size and other aspects of HTML elements.
 In this course, you'll learn CSS by designing a menu page for a cafe webpage.
+
+### class 3: Learn CSS colors by building a set of colored markers
+
+Selecting the correct colors for your webpage can greatly improve the aesthetic appeal to your readers.
+In this course, you'll build a set of colored markers. You'll learn different ways to set color values and how to pair color with each other.
