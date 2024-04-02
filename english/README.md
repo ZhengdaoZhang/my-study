@@ -426,3 +426,16 @@ S: Yes, our team was involved in a project to redesign the company's website. We
 A: Excellent! Can you share details about your educational background? Were you trained in a specific field?
 S: Yes. I have a master's degree in computer science. My studies were intensive, and I was introduced to many different methodologies.
 A: Impressive! We appreciate candidates with strong educational backgrounds and practical experience. Thanks a lot for coming to the interview.
+
+### Dialogue 3: Two workmates talk about their backgrounds
+
+B: Hey, how's it going? I noticed you're relatively new here. What's your background in tech?
+S: Hey! Yeah, I joined the team a few months ago. I didn't study computer science at tech university, but I majored in electrical engineering. It wasn't exactly tech-related, but I learned a lot about problem-solving and critical thinking.
+B: That's interesting! So, you didn't work on many programming projects during your studies, did you?
+S: No, not really. I played around with coding, but most of my projects involved circuit designs and electrical systems. It was a bit different.
+B: I see. Did you enjoy your time there, even if it wasn't entirely tech-focused?
+S: I did. It was challenging, but I met some fantastic people. We had a bunch of fun coding marathons, although I wasn't always a very strong programmer.
+B: Well, we all have different journeys. I studied at a small college as well and majored in information technology. It was more hands-on, and I loved every bit of it. We didn't have to wear too many hats, but I got to build and maintain networks and manage a few small projects.
+S: That sounds cool. Did you ever work on any big projects during your studies?
+B: They weren't exactly big projects. Most of them were smaller scale. But it was a great learning experience. It's fascinating to me how we all take different paths but end up in the same tech world, right?
+S: Absolutely! Let's grab a coffee sometime and chat more!
