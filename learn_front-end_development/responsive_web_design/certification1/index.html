@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">my survey form project</p>
+    <form action="" id="survey-form">
+        <fieldset class="column">
+            <legend>fieldset-1</legend>
+            <div>
+                <label for="name" id="name-label">
+                    name: <input type="text" name="name" id="name" placeholder="Please input name" required>
+                </label>
+            </div>
+
+            <div>
+                <label for="email" id="email-label">
+                    email: <input type="email" name="email" id="email" placeholder="Please input email" required>
+                </label>
+            </div>
+            <div>
+                <label for="number" id="number-label">
+                    number: <input type="number" name="number" id="number" pattern="[0-9]" min="1" max="255"
+                        placeholder="Please input number">
+                </label>
+            </div>
+            <div>
+                <label for="textarea">textarea:
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>fieldset-2</legend>
+            <div>
+                <span>select:</span>
+                <select name="dropdown " id="dropdown">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div>
+                <span>radio:</span>
+                <label for="radio-1">
+                    <input type="radio" name="radio" id="radio-1" value="1">1
+                </label>
+                <label for="radio-2">
+                    <input type="radio" name="radio" id="radio-2" value="2">2
+                </label>
+            </div>
+
+            <div>
+                <span>checkbox:</span>
+                <label for="checkbox-1">
+                    <input type="checkbox" name="checkbox" id="checkbox-1" value="1">1
+                </label>
+                <label for="checkbox-2">
+                    <input type="checkbox" name="checkbox" id="checkbox-2" value="2">2
+                </label>
+            </div>
+        </fieldset>
+
+        <input type="submit" id="submit">
+
+    </form>
+</body>
+
+</html>
