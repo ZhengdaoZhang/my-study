@@ -439,3 +439,25 @@ B: Well, we all have different journeys. I studied at a small college as well an
 S: That sounds cool. Did you ever work on any big projects during your studies?
 B: They weren't exactly big projects. Most of them were smaller scale. But it was a great learning experience. It's fascinating to me how we all take different paths but end up in the same tech world, right?
 S: Absolutely! Let's grab a coffee sometime and chat more!
+
+### Dialogue 4: A developer with a different background
+
+T: Hey, Alice. How did you get into tech?
+A: My background is a bit unconventional. I didn't study tech at a traditional university. I'm mostly self-taught, and I took a lot of online courses.
+T: That's interesting! So, you didn't attend a regular college or anything like that?
+A: No, not at all. I was at a different job, but I got really interested in programming and tech, so i started learning in my free time.
+T: That's impressive! Did you enjoy learning on your own?
+A: Absolutely. It was challenging, but I loved it. The flexibility of online learning allowed me to balance my job and my studies.
+T: Did you work on any projects during your self-study?
+A: Yes, I did. I built a few small web applications, just to practice. It was a great way to apply what I learned.
+T: I admire your dedication! It is amazing how far you got studying by yourself.
+
+### Dialogue 5: Anna talk about her experience
+
+T: Hey, I've been curious about your background. How did you end up as a tech recruiter?
+A: Hey! It's an interesting story. I actually studied psychology in college. My plan was to become a therapist or counselor. But during my last year, I took a course in organizational psychology, and it piqued my interest in the workplace and employee dynamics.
+T: That's a cool twist. Did you immediately start working as a tech recruiter after college?
+A: Not right away. I worked in a general HR role at a non-tech company first, focusing on training and development.
+T: What made you make the jump to tech?
+A: I saw that tech companies appreciate innovation and care for the employees' well-being. This is directly related to what made me want to become a psychologist. So basically, that's what brought me here.
+T: Awesome. It was great to get to know you better.
