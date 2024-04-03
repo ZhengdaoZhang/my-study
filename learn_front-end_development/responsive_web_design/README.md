@@ -35,3 +35,8 @@ For this project, you'll build a survey form to collect data form your users.
 
 Every HTML element is its own box - with its own spacing and border. This is called the box model.
 In this course, you'll use CSS and the box model to create your own Rothko-style rectangular art pieces.
+
+### class 6: Learn CSS Flexbox by building a photo gallery
+
+Flexbox helps you design your webpages so that it looks good on any screen size.
+In this course, you'll user Flexbox to build a responsive photo gallery webpage.
