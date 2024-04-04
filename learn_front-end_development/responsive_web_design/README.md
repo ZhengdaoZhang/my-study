@@ -45,3 +45,8 @@ In this course, you'll user Flexbox to build a responsive photo gallery webpage.
 
 Typography is the art of styleing your text to easily readable and suit its purpose.
 In this course. you'll user typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.
+
+### class 8: Learn Accessibility by building a quiz
+
+Accessibility is making your webpage easy for all people to user - even people with  disabilities.
+In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
