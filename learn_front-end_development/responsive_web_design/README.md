@@ -50,3 +50,8 @@ In this course. you'll user typography to build a nutrition label webpage. You'l
 
 Accessibility is making your webpage easy for all people to user - even people with  disabilities.
 In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
+
+### certification 2: Tribute page
+
+This is one of the required projects to earn your certification.
+For this project, you will build a tribute page for a subject of your choosing, fictional or real.
