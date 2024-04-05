@@ -461,3 +461,21 @@ A: Not right away. I worked in a general HR role at a non-tech company first, fo
 T: What made you make the jump to tech?
 A: I saw that tech companies appreciate innovation and care for the employees' well-being. This is directly related to what made me want to become a psychologist. So basically, that's what brought me here.
 T: Awesome. It was great to get to know you better.
+
+## class 8
+
+Learn show to talk about hobbies an interests
+In this course, you'll learn different ways to talk about hobbies an things that interset you. You'll also learn how to ask about other people's hobbies and how to invite them to join you in these activities.
+
+### Dialogue 1: An interest in photography
+
+M: Hey, I noticed that you have a camera on your desk. Are you into photography?
+B: Absolutely. I've been passionate about photography for many years. Capturing moments and scenes is like magic to me.
+M: That's awesome! How long have you been into photography?
+B: For nearly a decade now, it started as a hobby, but it has become a significant part of my life.
+M: Wow, that's quite a while! What kind of photography do you enjoy the most?
+B: I like landscapes and nature. It's incredible to capture the beauty of our world in pictures.
+M: That sounds amazing. I like photos a lot. Any tips for a newbie?
+B: Absolutely! I've taken things way too seriously in the past. So I always recommend starting with the basics, learning about your camera, and trying to have fun.
+M: Cool! Thanks for the tips.
+B: No problem!
