@@ -65,3 +65,8 @@ In this course, you'll build balance sheet pseudo selector. You'll learn how to 
 
 Mastering CSS positioning is essiential for creating visully appealing and responsive web layouts.
 In this course, you'll build a cat painting. You'll learn about how to work with absolute positioning, z-index property, and the transform property.
+
+### class 11: Learn responsive web design by building a piano
+
+Responsive design tells your webpage how it should look on different-sized screens.
+In this course, you'll use CSS and responsive design to code a piano. You'll also learn more about media queries and pseudo selectors.
