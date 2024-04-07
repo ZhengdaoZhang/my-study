@@ -479,3 +479,16 @@ M: That sounds amazing. I like photos a lot. Any tips for a newbie?
 B: Absolutely! I've taken things way too seriously in the past. So I always recommend starting with the basics, learning about your camera, and trying to have fun.
 M: Cool! Thanks for the tips.
 B: No problem!
+
+### Dialogue 2: The bike rider
+
+J: Hey, is that bicycle outside the office yours? Do you enjoy cycling?
+L: I do! I've liked riding my bike since my childhood. It's not just a hobby – it's a way of life for me.
+J: That's great. How long have you been into cycling?
+L: I've been a cyclist for more than 15 years. It's a love that hasn't disappeared with time.
+J: Wow! And what kind of cycling do you enjoy the most?
+L: I love road cycling and the feeling of the open road. It's a great way to stay fit and explore new places.
+J: That's fantastic. I want to get into cycling, too. I haven't been on a bike since I was a kid. I probably even forgot how to do it.
+L: People say we never forget. Say, do you still have a bike? Would you like to go cycling with me one of these days?
+J: Sure, I'd love to. Let's see what we can do next week.
+L: Ok, it's a bike date, then.
