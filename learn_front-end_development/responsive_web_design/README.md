@@ -60,3 +60,8 @@ For this project, you will build a tribute page for a subject of your choosing, 
 
 You can use CSS pseudo selector to change specific HTML elements.
 In this course, you'll build balance sheet pseudo selector. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other event on your webpage.
+
+### class 10: Learn intermediate CSS by building a cat painting
+
+Mastering CSS positioning is essiential for creating visully appealing and responsive web layouts.
+In this course, you'll build a cat painting. You'll learn about how to work with absolute positioning, z-index property, and the transform property.
