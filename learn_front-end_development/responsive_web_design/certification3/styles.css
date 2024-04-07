@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing:border-box;
+  }
+  #main-doc{
+    margin-left:230px;
+    width:calc(100% -230px);
+    padding:24px;
+  }
+  
+  #navbar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:230px;
+    height:100%;
+    border-right:1px solid #ccc;
+    z-index:11;
+  }
+  
+  
+  @media  (max-width:768px){
+    #navbar{
+      position:relative;
+      height:400px;
+      border-bottom:1px solid #ccc;
+      border-right:0;
+    }
+    #main-doc{
+      margin:0;
+      width:100%;
+    }
+  }

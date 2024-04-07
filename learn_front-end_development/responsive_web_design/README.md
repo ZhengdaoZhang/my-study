@@ -70,3 +70,8 @@ In this course, you'll build a cat painting. You'll learn about how to work with
 
 Responsive design tells your webpage how it should look on different-sized screens.
 In this course, you'll use CSS and responsive design to code a piano. You'll also learn more about media queries and pseudo selectors.
+
+### certification 3: Technical documentation page
+
+This is one of the required project to earn your certification.
+For this project, you'll build a technical documentation page to serve as instruction or reference for a topic.
