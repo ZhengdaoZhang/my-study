@@ -55,3 +55,8 @@ In this course, you'll build a quiz webpage. You'll learn accessibility tools su
 
 This is one of the required projects to earn your certification.
 For this project, you will build a tribute page for a subject of your choosing, fictional or real.
+
+### class 9: Learn more about CSS pseudo selector by building a balance sheet
+
+You can use CSS pseudo selector to change specific HTML elements.
+In this course, you'll build balance sheet pseudo selector. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other event on your webpage.
