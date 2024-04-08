@@ -492,3 +492,14 @@ J: That's fantastic. I want to get into cycling, too. I haven't been on a bike s
 L: People say we never forget. Say, do you still have a bike? Would you like to go cycling with me one of these days?
 J: Sure, I'd love to. Let's see what we can do next week.
 L: Ok, it's a bike date, then.
+
+### Dialogue 3: The collector
+
+J: Hey, I noticed you have a huge collection of action figures on that shelf behind you. Are you a collector?
+S: You bet! I love action figures.
+J: That's awesome! What kind of figures are you most interested in?
+S: I like sci-fi and fantasy, mostly. You can find everything here, from Star Wars to Lord of the Rings.
+J: That's cool. How long have you been into collecting?
+S: I've been a collector since I was 8 or 9 years old. It all started when I got my first action figure at a comic convention.
+J: I didn't know you were interested in this.
+S: Are you kidding? I go to at least one convention every year. It's the best moment of the year for me!
