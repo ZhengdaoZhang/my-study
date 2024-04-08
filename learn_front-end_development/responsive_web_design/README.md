@@ -85,3 +85,8 @@ In this course, you'll build a city skyline. You'll learn how to configure CSS v
 
 CSS grid gives you control over the rows and columns of your webpage design,
 In this course. you'll build a magazine article. You'll learn how to use CSS grid, including concepts like gird rows and grid columns.
+
+### certification 4: Product landing page
+
+This is one of the required projects to earn your certification.
+For this project, you'll build a product landing page to market a product of your choice.
