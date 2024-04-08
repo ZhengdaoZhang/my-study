@@ -80,3 +80,8 @@ For this project, you'll build a technical documentation page to serve as instru
 
 CSS variables help you organize your styles and reuse them.
 In this course, you'll build a city skyline. You'll learn how to configure CSS variable so you can reuse them whenever you want.
+
+### class 13:Learn CSS grid by building a magazine
+
+CSS grid gives you control over the rows and columns of your webpage design,
+In this course. you'll build a magazine article. You'll learn how to use CSS grid, including concepts like gird rows and grid columns.
