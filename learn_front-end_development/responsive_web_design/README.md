@@ -75,3 +75,8 @@ In this course, you'll use CSS and responsive design to code a piano. You'll als
 
 This is one of the required project to earn your certification.
 For this project, you'll build a technical documentation page to serve as instruction or reference for a topic.
+
+### class 12: Learn CSS variables by building a city skyline
+
+CSS variables help you organize your styles and reuse them.
+In this course, you'll build a city skyline. You'll learn how to configure CSS variable so you can reuse them whenever you want.
