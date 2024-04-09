@@ -95,3 +95,8 @@ For this project, you'll build a product landing page to market a product of you
 
 You can use CSS animation to draw attention to specific section of your webpage and make it more engaging.
 In this course, you'll build a ferris wheel. You'll learn how to use CSS to animate elements, transform them, and adjust their speed.
+
+### class 15: Learn transforms by building a penguin
+
+You can transform HTML elements to create appealing designs that draw your reader's eye. You can use transforms to ratate elements, scale them, and more.
+In this course, you'll build a penguin. You'll use CSS tansforms to position and resize the part of your penguin, create a background, and animate you work.
