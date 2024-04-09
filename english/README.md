@@ -503,3 +503,12 @@ J: That's cool. How long have you been into collecting?
 S: I've been a collector since I was 8 or 9 years old. It all started when I got my first action figure at a comic convention.
 J: I didn't know you were interested in this.
 S: Are you kidding? I go to at least one convention every year. It's the best moment of the year for me!
+
+### Dialogue 4: Inviting to a Convention
+
+S: Hey, Tom! Have i told you I'm a huge sci-fi fan? I'm even part of an amazing fandom.
+T: That's cool, Sarah! I've heard there are massive communities of people who are into sci-fi. What kind of events do you have?
+S: Well, we have movie marathons, conventions, and even play together some movie-related video games. There's a big convention next month, would you like to come?
+T: Thanks for the invite, Sarah. I appreciate it, but I'm not really into sci-fi. I hope you have a blast at the convention, though!
+S: No problem, Tom. Maybe next time you'll join us.
+T: Thanks! Have fun. I hope the convention is a success.
