@@ -90,3 +90,8 @@ In this course. you'll build a magazine article. You'll learn how to use CSS gri
 
 This is one of the required projects to earn your certification.
 For this project, you'll build a product landing page to market a product of your choice.
+
+### class 14: Learn CSS animation by building a ferris wheel
+
+You can use CSS animation to draw attention to specific section of your webpage and make it more engaging.
+In this course, you'll build a ferris wheel. You'll learn how to use CSS to animate elements, transform them, and adjust their speed.
