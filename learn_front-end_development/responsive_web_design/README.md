@@ -100,3 +100,8 @@ In this course, you'll build a ferris wheel. You'll learn how to use CSS to anim
 
 You can transform HTML elements to create appealing designs that draw your reader's eye. You can use transforms to ratate elements, scale them, and more.
 In this course, you'll build a penguin. You'll use CSS tansforms to position and resize the part of your penguin, create a background, and animate you work.
+
+### certification 5: Personal portfolio webpage
+
+This is one of required projects to earn your certification.
+For this project, you'll build your own personal portfolio page.
