@@ -512,3 +512,13 @@ S: Well, we have movie marathons, conventions, and even play together some movie
 T: Thanks for the invite, Sarah. I appreciate it, but I'm not really into sci-fi. I hope you have a blast at the convention, though!
 S: No problem, Tom. Maybe next time you'll join us.
 T: Thanks! Have fun. I hope the convention is a success.
+
+### Dialogue 5: Getting into extreme sports
+
+B: Hey, Sophie. I heard you're into extreme sports. Is that true?
+S: Yes, i love them. I've been into rock climbing and rafting for a while now.
+B: That's amazing! I've always wanted to try rafting but I've never had the opportunity.
+S: Well, why don't you try it? I'm planning to go rafting this weekend. You're welcome to join!
+B: Really? That sounds great! I'd love to join you.
+S: Great! We'll have a lot of fun. I'll let you know all the details later.
+B: Thanks, Sophie. I'm looking forward to it!
