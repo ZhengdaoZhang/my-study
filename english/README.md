@@ -522,3 +522,17 @@ S: Well, why don't you try it? I'm planning to go rafting this weekend. You're w
 B: Really? That sounds great! I'd love to join you.
 S: Great! We'll have a lot of fun. I'll let you know all the details later.
 B: Thanks, Sophie. I'm looking forward to it!
+
+## class 9
+
+Learn how to discuss roles and responsibilities
+In this course, you'll discuss prople's roles and responsibilities in company and out of it. You'll discover how to ask about these roles and responsibilities and how to share information about you related to topic.
+
+### Dialogue 1: Describe other people and what they do
+
+B: Hey, have you met Anna yet? She's now in charge on HR department.
+S: No, i haven't seen yet. What can you tell me about her?
+B: She is tall woman in her early 40s, with long blond hair and glasses. You'll recognize her right away. She's quite serious and organzied, which makes her excellent at her job. She's been working with tech companies for about ten years.
+S: Ten years? That's impressive! What does she do exactly?
+B: Well, She's responsible for hiring people and taking care of workers. She makes sure we follow the rules and that everyone is happy. Word is that she's strict but fair, and she always looks out for the interests of the team.
+S: Those are very positive things you've just said. I'm excited we have someone like her in our company. I'd love to chat with her sometime and learn from her experiences.
