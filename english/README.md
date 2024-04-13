@@ -536,3 +536,15 @@ B: She is tall woman in her early 40s, with long blond hair and glasses. You'll 
 S: Ten years? That's impressive! What does she do exactly?
 B: Well, She's responsible for hiring people and taking care of workers. She makes sure we follow the rules and that everyone is happy. Word is that she's strict but fair, and she always looks out for the interests of the team.
 S: Those are very positive things you've just said. I'm excited we have someone like her in our company. I'd love to chat with her sometime and learn from her experiences.
+
+### Dialogue 2: Talking about Anna
+
+T: Hey, have you evey worked with Anna from HR.
+A: I've seen her a couple of times. Why do you ask?
+T: Well, I noticed that she's always in the office super early and leaves pretty late. Do you know why?
+A: Yeah, she's very committed. She seems to take her work very seriously.
+T: I don't really know her, to be honest. What's her role?
+A: Anna is the head of HR, and she has to make sure our company runs smoothly when it comes to HR. She doesn't have to interview for hiring people, though. The rest of the HR team does the interviews. She's been with us for about eight years now.
+T: Wow, that's a long time. Is she a strict person?
+A: She's very easygoing, actually. She's serious when it comes to work but also has a good sense of humor. She's fair and supportive, always willing to help and answer questions.
+T: She sounds like a great person. I should have a chat with her sometime.
