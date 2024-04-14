@@ -548,3 +548,14 @@ A: Anna is the head of HR, and she has to make sure our company runs smoothly wh
 T: Wow, that's a long time. Is she a strict person?
 A: She's very easygoing, actually. She's serious when it comes to work but also has a good sense of humor. She's fair and supportive, always willing to help and answer questions.
 T: She sounds like a great person. I should have a chat with her sometime.
+
+### Dialogue 3: Talking about Jeff
+
+T: I got this message saying I must talk with Jeff from the Security department.Do you know him?
+S: Yeah, I've seen him around. He's responsible for security operations in our company. He's been with us for some time, nearly 10 years. He's tall and has curly hair. He always has this vigilant look, probably a result of this job.
+T: He sounds like a dedicated professional. I've always wondered what the folks in security do around here. What are his responsibility?
+S: He makes sure the company's data and facilities are secure. monitors access controls. and conducts investigations when needed. He also ensure that everyone follows security procedures.
+T: Ah, speaking of procedures, is there anything he's told you that we need to do when it comes to office security?
+S: Yes, there is one thing he emphasizes: you mustn't share your access codes or passwords with anyone. Security is a big deal for him.
+T: Understandable. Well, thanks.
+S: No problem. If you ever need any security tips, you really must talk to Jeff.
