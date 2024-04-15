@@ -559,3 +559,19 @@ T: Ah, speaking of procedures, is there anything he's told you that we need to d
 S: Yes, there is one thing he emphasizes: you mustn't share your access codes or passwords with anyone. Security is a big deal for him.
 T: Understandable. Well, thanks.
 S: No problem. If you ever need any security tips, you really must talk to Jeff.
+
+### Dialogue 4: Sophie asks bob about his responsibilities
+
+S: Bob, could you tell me about your job and your responsibilities in the office?
+B: Of course, i'd be happy to. In my role, I have to meet project deadlines and collaborate with the development team. I also can't disclose sensitive information to anyone outside of the company.
+S: What about daily tasks?
+B: Well, I have to attend team meetings and provide progress reports, but I don't have to work overtime unless it's an urgent situation.
+
+### Dialogue 5: Brian and sophie talk about responsibilities
+
+B: Sophie, how do you manage your work-life balance and your responsibilities outside of the office?
+S: It's not always easy, but I've found ways to make it work.
+B: Tell me about your responsibilities beyond work.
+S: Well, I have to make time for my family – that's really important to me. I also don’t want to neglect my health, so two months ago I started jogging regularly. It helps me relax and stay fit.
+B: It sounds like you're doing great dealing with work and life responsibilities at the same time.
+S: Thank you. It's all about finding the right balance for you and your well-being. And you don't have to search for expensive solutions for that. Sometimes, it's the simple and free things that bring us the result we're looking for.
