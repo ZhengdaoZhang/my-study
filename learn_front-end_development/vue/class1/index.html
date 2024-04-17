@@ -9,10 +9,10 @@
 </head>
 
 <body>
-    <p>section1</p>
+    <h2>Section 1： Create an application</h2>
     <section id="section1">{{message}}</section>
     <script>
-        const { createApp, ref } = Vue;
+        const { createApp, ref, reactive, computed } = Vue;
         createApp({
             setup() {
                 const message = ref('Hello vue!')
@@ -22,7 +22,7 @@
             }
         }).mount("#section1")
     </script>
-    <p>section2</p>
+    <h2>Section 2: Template syntax</h2>
     <section id="section2">
         <p>Using text interpolation: {{textInterpolation}}</p>
         <p>Using v-html directive: <span v-html="rawHtml"></span></p>
@@ -41,15 +41,15 @@
         createApp({
             setup() {
                 const textInterpolation = ref('Text Interpolation');
-                const rawHtml = ` <span style="color: red">Using raw HTML.</span>`;
-                const bindId = "bindId";
-                const buttonDisabled = true;
-                const attributesObj = {
+                const rawHtml = ref(` <span style="color: red">Using raw HTML.</span>`);
+                const bindId = ref("bindId");
+                const buttonDisabled = ref(true);
+                const attributesObj = ref({
                     id: "id1",
                     class: "class1"
-                }
-                const array = [1, 2, 3, 4, 5, 6]
-                const fn1 = () => {
+                })
+                const array = ref([1, 2, 3, 4, 5, 6])
+                function fn1() {
                     return "this is function return "
                 }
                 return {
@@ -64,6 +64,147 @@
             }
         }).mount("#section2")
     </script>
+    </script>
+    <h2>Section 3: Reactivity fundamentals</h2>
+    <section id="section3">
+        <div>
+            <p>ref: {{count}} <button @click="add">count++</button></p>
+            <p>obj: {{obj.a.b}} <button @click="obj.a.b=2">change obj.a.b</button></p>
+            <p>reactiveObj.a:{{reactiveObj.a}},reactiveObj.b:{{reactiveObj.b}}</p>
+        </div>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const count = ref(0);
+                const obj = ref({
+                    a: {
+                        b: 1
+                    }
+                })
+                console.log(obj)
+                const reactiveObj = reactive({
+                    a: 1,
+                    b: 2,
+                })
+                console.log(reactiveObj)
+                function add() {
+                    count.value++;
+                }
+                return {
+                    count,
+                    add,
+                    obj,
+                    reactiveObj
+                }
+            }
+        }).mount("#section3")
+    </script>
+    <h2>Section 4: Computed properties</h2>
+    <section id="section4">
+        <p>computed result: book.length{{ publishedBooksMessage }}</p>
+        <p>method result: book.length{{ publishedBooksMessageMethod() }} <button
+                @click='author.books.push("akjsdhkalsjd")'>change books</button></p>
+
+        <p>writable computed: value = {{fullName}} <button @click="fullName='zx z'">chengeValue</button></p>
+
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const author = ref({
+                    name: 'John Doe',
+                    books: [
+                        'Vue 2 - Advanced Guide',
+                        'Vue 3 - Basic Guide',
+                        'Vue 4 - The Mystery'
+                    ]
+                })
+                const publishedBooksMessage = computed(() => {
+                    return author.value.books.length
+                })
+                const publishedBooksMessageMethod = () => {
+                    return author.value.books.length
+                }
+
+                const firstName = ref("zd");
+                const lastName = ref("z");
+
+                const fullName = computed({
+                    get() {
+                        return firstName.value + ' ' + lastName.value
+                    },
+                    set(newValue) {
+                        [firstName.value, lastName.value] = newValue.split(' ')
+                    }
+                })
+
+                return {
+                    author,
+                    publishedBooksMessage,
+                    publishedBooksMessageMethod,
+                    fullName
+                }
+            }
+        }).mount("#section4")
+    </script>
+    <h2>Section 5: class and style bindings</h2>
+    <section id="section5">
+        <p :class="class0">bind classes by str: {{class0}}</p>
+        <p :class="class1">bind classes by array: {{class1}}</p>
+        <p :class="class2">bind classes by obj: {{class2}}</p>
+        <p :style="style1">bind styles by str: {{style1}}</p>
+        <p :style="style2">bind styles by obj: {{style2}}</p>
+        <p :style="[style1,style3]">bind styles by array of obj: {{[style2,style3]}}</p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const class0 = ref("class0 class1");
+                const class1 = ref(["class1", "class2"]);
+                const class2 = ref({
+                    act: true,
+                    act1: false,
+                })
+                const style1 = ref("background:#f00; color:blue;")
+                const style2 = ref({
+                    background: "pink",
+                    color: "#fff",
+                })
+                const style3 = ref({
+                    fontSize: "24px",
+                })
+                return {
+                    class0,
+                    class1,
+                    class2,
+                    style1,
+                    style2,
+                    style3
+                }
+            }
+        }).mount("#section5")
+    </script>
+    <h2>Section 6: conditional randering</h2>
+    <section id="section6">
+        <p>v-if v-else-if v-else: <span v-if="condition1===1">1</span><span v-else-if="condition1===2">2</span><span
+                v-else>3</span> <button @click="changeCondition1">change condition</button></p>
+
+        <p>v-show: <span v-show="condition1===1">1</span> <span v-show="condition1===2">2</span></p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const condition1 = ref(1);
+                const changeCondition1 = () => {
+                    condition1.value++;
+                }
+                return {
+                    condition1,
+                    changeCondition1
+                }
+            }
+        }).mount("#section6")
     </script>
 </body>
 
