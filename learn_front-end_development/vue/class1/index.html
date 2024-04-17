@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <p>section1</p>
+    <section id="section1">{{message}}</section>
+    <script>
+        const { createApp, ref } = Vue;
+        createApp({
+            setup() {
+                const message = ref('Hello vue!')
+                return {
+                    message
+                }
+            }
+        }).mount("#section1")
+    </script>
+    <p>section2</p>
+    <section id="section2">
+        <p>Using text interpolation: {{textInterpolation}}</p>
+        <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+        <p>Binding attribute: <span v-bind:id="bindId">{{bindId}}</span>|<span :id="bindId">Shorthand:{{bindId}}</span>
+        </p>
+        <p>Binding boolean attribute: <button :disabled="buttonDisabled">button</button></p>
+        <p>Dynamically binding multiple attributes: <span v-bind="attributesObj">attributesObj:{{attributesObj}}</span>
+        </p>
+        <p>Using javasctipt expressions: <span>1+1={{1+1}}</span>, <span>1 is true? {{1?"yes":"no"}}</span>,
+            <span>content of Array: {{array.join(",")}} </span>
+        </p>
+        <p :id="fn1()">Calling function : {{fn1()}}</p>
+        <p>The full directive syntax visualized: name(v-on):argument(submit).modifiers(prevent)="value(onSubmit)"</p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const textInterpolation = ref('Text Interpolation');
+                const rawHtml = ` <span style="color: red">Using raw HTML.</span>`;
+                const bindId = "bindId";
+                const buttonDisabled = true;
+                const attributesObj = {
+                    id: "id1",
+                    class: "class1"
+                }
+                const array = [1, 2, 3, 4, 5, 6]
+                const fn1 = () => {
+                    return "this is function return "
+                }
+                return {
+                    textInterpolation,
+                    rawHtml,
+                    bindId,
+                    buttonDisabled,
+                    attributesObj,
+                    array,
+                    fn1
+                }
+            }
+        }).mount("#section2")
+    </script>
+    </script>
+</body>
+
+</html>
