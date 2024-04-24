@@ -107,5 +107,60 @@ Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user 
 - passing props
 - listening to events
 - content distribution with slots
-- dynamic components 
-- 
+- dynamic components
+
+## class 2: Components in-depth
+
+### section 1: registration
+
+- global registration
+- local registration
+- component name casing
+
+### section 2: props
+
+- props declaration
+- prop passing details
+- one-way data flow
+- prop validation
+- boolean casting
+
+### section 3: events
+
+- emitting and listening to events
+- event arguments
+- declaring emitted events
+- event validation
+
+### section 4: component v-model
+
+- basic usage
+- v-model arguments
+- multiple v-model bindings
+- handing v-model modifiers
+
+### section 5: fallthrough attributes
+
+- attributes inheritance
+- disabling attributes inheritance
+- attribute inheritance on multiple root nodes
+- accessing fallthough attributes in javascript
+
+### section 6: slot
+
+- slot content and outlet
+- rander scope
+- fallback content
+- named slots
+- conditional slots
+- dynamic slot names
+- scoped slots
+
+### section 7: provide / inject
+
+- props driling
+- provide
+- app-level provide
+- inject
+- working with reactivity
+- working with symbol keys
