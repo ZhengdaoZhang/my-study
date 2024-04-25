@@ -165,11 +165,11 @@ Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user 
 - working with reactivity: const a=ref(1) app.provide("key",a)
 - working with symbol keys
 
-## class 2: Reusability
+## class 3: Reusability
 
 ### section 1: composable
 
-- example 
+- example
 - name prefix used 'use'
 - use hooks, define computed, watch
 - return ref computed
@@ -179,9 +179,40 @@ Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user 
 - introduction
 - directive hooks: like component hooks
 - function shorthand: app.directive("color",(el,binding)=>{}) | const vColor=(el,binding)=>{}
-- object literal: binding.value.value  binding.value.arg binding.value.modifictor
+- object literal: binding.value.value | binding.value.arg | binding.value.modifictor
 - usage on components: it is not recommended
 
 ### section 3: plugins
 
 - writing a plugin:  const p1={ install(app,config){ } }  app.use(p1,{a:1,b:2})
+
+## class 4: Built-in components
+
+### section 1: transition
+
+- The transition component: Transition | v-if
+- transition class: .v-enter-from, .v-enter-active, .v-enter-to, .v-leave-from, .v-leave-active, .v-leave-to
+- named transitions:  Transition  name=""
+- css animation: @keyframes xxx {}  v-enter-active  v-leave-active
+- transition between elements: v-if v-else-if v-else
+- :is :key: change :is or :key will cause transition
+
+### section 2: transitiongroup
+
+- TransitionGroup component
+- tag: tag="ul"
+- key: v-for="item of list" :key="item"
+
+### section 3: keepAlive
+
+- KeepAlive: KeepAlive component :is
+- include: :include="['ComponentA' , 'ComponentB']"
+- max cached instances :max="10"
+- lifecycle of cached instance: onActivated, onDeactivated
+
+### section 4: teleport
+
+- Basic usage: Teleport to="body"
+- using width component: no differentiation
+- disabling teleport v-if="false"
+- Multiple Teleports on the Same Target: sequence added
