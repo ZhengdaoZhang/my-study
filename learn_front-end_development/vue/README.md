@@ -216,3 +216,35 @@ Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user 
 - using width component: no differentiation
 - disabling teleport v-if="false"
 - Multiple Teleports on the Same Target: sequence added
+
+## class 5: scaling up
+
+### section 1: single-file components
+
+### section 2: tooling
+
+- [vue sfc playground](https://play.vuejs.org/#eNp9kUFLwzAUx7/KM5cqzBXR0+gGKgP1oKKCl1xG99ZlpklIXuag9Lv7krK5w9it7//7v/SXthP3zo23EcVEVKH2yhEEpOhm0qjWWU/QgccV9LDytoWCq4U00tTWBII2NDBN/LJ4Qq0tfFuvlxfFlTRVORzHB/FA2Dq9IOQJoFrfzLouL/d9VfKUU2VcJNhet3aJeioFcymgZFiVR/tiJCjw61eqGW+CNWzepX0pats6pdG/OVKsJ8UEMklswXa/LzkjH3G0z+s11j8n8k3YpUyKd48B/RalODBa+AZpwPPPV9zx8wGyfdTcPgM/MFgdk+NQe4hmydpHvWz7nL+/Ms1XmO8ITdhfKommZp/7UvA/eTxz9X/d2/Fd3pOmF/0fEx+nNQ==)
+- [stackblitz](https://stackblitz.com/)
+- [vite](https://vitejs.dev/)
+- [Vue CLI](https://cli.vuejs.org/)
+- IDE support (VS Code & Vue - official extension)
+- [Browser Devtools](https://vuejs.org/guide/scaling-up/tooling.html#browser-devtools)
+- Testing [Vitest](https://vitest.dev/)
+- eslint-plugin-vue
+  
+### section 3: router
+
+- hashchange  and  conponent :is=""
+- vuw-router
+
+### section 4: state management
+
+- pinia
+
+### section 5: testing
+
+- unit
+- component
+- end-to-end
+
+### section 6: ssr
