@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 1</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+    <h2>Section 1： Create an application</h2>
+    <section id="section1"></section>
+    <script>
+        const { createApp, ref, reactive, } = Vue;
+        createApp({
+            template: `<p>{{message}}</p>`,
+            setup() {
+                const message = ref('Hello vue!')
+                return {
+                    message
+                }
+            }
+        }).mount("#section1")
+    </script>
+    <h2>Section 2: Template syntax</h2>
+    <section id="section2">
+        <p>Using text interpolation: {{textInterpolation}}</p>
+        <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+        <p>Binding attribute: <span v-bind:id="bindId">{{bindId}}</span>|<span :id="bindId">Shorthand:{{bindId}}</span>
+        </p>
+        <p>Binding boolean attribute: <button :disabled="buttonDisabled">button</button></p>
+        <p>Dynamically binding multiple attributes: <span v-bind="attributesObj">attributesObj:{{attributesObj}}</span>
+        </p>
+        <p>Using javasctipt expressions: <span>1+1={{1+1}}</span>, <span>1 is true? {{1?"yes":"no"}}</span>,
+            <span>content of Array: {{array.join(",")}} </span>
+        </p>
+        <p :id="fn1()">Calling function : {{fn1()}}</p>
+        <p>The full directive syntax visualized: name(v-on):argument(submit).modifiers(prevent)="value(onSubmit)"</p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const textInterpolation = ref('Text Interpolation');
+                const rawHtml = ref(` <span style="color: red">Using raw HTML.</span>`);
+                const bindId = ref("bindId");
+                const buttonDisabled = ref(true);
+                const attributesObj = ref({
+                    id: "id1",
+                    class: "class1"
+                })
+                const array = ref([1, 2, 3, 4, 5, 6])
+                function fn1() {
+                    return "this is function return "
+                }
+                return {
+                    textInterpolation,
+                    rawHtml,
+                    bindId,
+                    buttonDisabled,
+                    attributesObj,
+                    array,
+                    fn1
+                }
+            }
+        }).mount("#section2")
+    </script>
+    </script>
+    <h2>Section 3: Reactivity fundamentals</h2>
+    <section id="section3">
+        <div>
+            <p>ref: {{count}} <button @click="add">count++</button></p>
+            <p>obj: {{obj.a.b}} <button @click="obj.a.b=2">change obj.a.b</button></p>
+            <p>reactiveObj.a:{{reactiveObj.a}},reactiveObj.b:{{reactiveObj.b}}</p>
+        </div>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const count = ref(0);
+                const obj = ref({
+                    a: {
+                        b: 1
+                    }
+                })
+                console.log(obj)
+                const reactiveObj = reactive({
+                    a: 1,
+                    b: 2,
+                })
+                console.log(reactiveObj)
+                function add() {
+                    count.value++;
+                }
+                return {
+                    count,
+                    add,
+                    obj,
+                    reactiveObj
+                }
+            }
+        }).mount("#section3")
+    </script>
+    <h2>Section 4: Computed properties</h2>
+    <section id="section4">
+        <p>computed result: book.length{{ publishedBooksMessage }}</p>
+        <p>method result: book.length{{ publishedBooksMessageMethod() }} <button
+                @click='author.books.push("akjsdhkalsjd")'>change books</button></p>
+
+        <p>writable computed: value = {{fullName}} <button @click="fullName='zx z'">chengeValue</button></p>
+
+    </section>
+    <script>
+        const { computed } = Vue;
+        createApp({
+            setup() {
+                const author = ref({
+                    name: 'John Doe',
+                    books: [
+                        'Vue 2 - Advanced Guide',
+                        'Vue 3 - Basic Guide',
+                        'Vue 4 - The Mystery'
+                    ]
+                })
+                const publishedBooksMessage = computed(() => {
+                    return author.value.books.length
+                })
+                const publishedBooksMessageMethod = () => {
+                    return author.value.books.length
+                }
+
+                const firstName = ref("zd");
+                const lastName = ref("z");
+
+                const fullName = computed({
+                    get() {
+                        return firstName.value + ' ' + lastName.value
+                    },
+                    set(newValue) {
+                        [firstName.value, lastName.value] = newValue.split(' ')
+                    }
+                })
+
+                return {
+                    author,
+                    publishedBooksMessage,
+                    publishedBooksMessageMethod,
+                    fullName
+                }
+            }
+        }).mount("#section4")
+    </script>
+    <h2>Section 5: class and style bindings</h2>
+    <section id="section5">
+        <p :class="class0">bind classes by str: {{class0}}</p>
+        <p :class="class1">bind classes by array: {{class1}}</p>
+        <p :class="class2">bind classes by obj: {{class2}}</p>
+        <p :style="style1">bind styles by str: {{style1}}</p>
+        <p :style="style2">bind styles by obj: {{style2}}</p>
+        <p :style="[style1,style3]">bind styles by array of obj: {{[style2,style3]}}</p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const class0 = ref("class0 class1");
+                const class1 = ref(["class1", "class2"]);
+                const class2 = ref({
+                    act: true,
+                    act1: false,
+                })
+                const style1 = ref("background:#f00; color:blue;")
+                const style2 = ref({
+                    background: "pink",
+                    color: "#fff",
+                })
+                const style3 = ref({
+                    fontSize: "24px",
+                })
+                return {
+                    class0,
+                    class1,
+                    class2,
+                    style1,
+                    style2,
+                    style3
+                }
+            }
+        }).mount("#section5")
+    </script>
+    <h2>Section 6: conditional randering</h2>
+    <section id="section6">
+        <p>v-if v-else-if v-else: <span v-if="condition1===1">1</span><span v-else-if="condition1===2">2</span><span
+                v-else>3</span> <button @click="changeCondition1">change condition</button></p>
+
+        <p>v-show: <span v-show="condition1===1">1</span> <span v-show="condition1===2">2</span></p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const condition1 = ref(1);
+                const changeCondition1 = () => {
+                    condition1.value++;
+                }
+                return {
+                    condition1,
+                    changeCondition1
+                }
+            }
+        }).mount("#section6")
+    </script>
+    <h2>Section 7: list rendering</h2>
+    <section id="section7">
+        <ul>
+            <li>v-for</li>
+            <li v-for="({label,value},index) in arr1" :key="label">{{label}}: {{value}}</li>
+        </ul>
+        <ul>
+            <li>v-for object</li>
+            <li v-for="(value,key,index) in object1" :key="key">{{index}}: {{key}}: {{value}}</li>
+        </ul>
+        <ul>
+            <li>v-for range</li>
+            <li v-for="n in 3">{{n}}</li>
+        </ul>
+        <ul>
+            <li>computed Arr</li>
+            <li v-for="item of computedArr">{{item}}</li>
+        </ul>
+        <p> inside nested v-for loops</p>
+        <ul v-for="numbers in sets">
+            <li v-for="n in even(numbers)">{{ n }}</li>
+        </ul>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const arr1 = ref([{ label: "label1", value: "value1" }, { label: "label2", value: "value2" }, { label: "label3", value: "value3" }, { label: "label4", value: "value4" }]);
+                const object1 = ref({
+                    a: 1,
+                    b: 2,
+                    c: 3
+                })
+                const computedArr = computed(() => {
+                    return arr1.value.map(item => item.value).filter(item => item === "value1")
+                })
+                const sets = ref([
+                    [1, 2, 3, 4, 5],
+                    [6, 7, 8, 9, 10]
+                ])
+
+                function even(numbers) {
+                    return numbers.filter((number) => number % 2 === 0)
+                }
+                return {
+                    arr1,
+                    object1,
+                    computedArr,
+                    sets,
+                    even
+                }
+            }
+        }).mount("#section7")
+    </script>
+    <h2>Section 8: event handing</h2>
+    <section id="section8">
+        <p>number: {{num}} <button type="button" @click.prevent="numAdd()">number++ inline</button> <button
+                @click.stop="numAdd">number++ method</button></p>
+
+        <div @click.capture="console.log('outderClick')">
+            <p>event modifiers: <span @click="console.log('innerClick')">inner Element click !!</span></p>
+        </div>
+        <p>key modifiers: <input type="text" @keyup.enter="console.log('keyup endt toggle')"></p>
+        <p>system modifiers key: <span @click.ctrl="console.log('ctrl click')"> ctrl + click </span></p>
+        <p>mouse modifiers: <span @click.left="console.log('left click')">left</span> <span
+                @click.middle.prevent="console.log('middle click')">middle</span> <span
+                @click.right.prevent="console.log('right click')">right</span></p>
+    </section>
+    <script>
+        createApp({
+            setup() {
+                const num = ref(0);
+                const numAdd = (event) => {
+                    console.log(event)
+                    num.value++;
+                }
+                return {
+                    num,
+                    numAdd
+                }
+            }
+        }).mount("#section8")
+    </script>
+    <h2>Section 9: form input bindings</h2>
+    <section id="section9">
+        <form action="">
+            <label for="name">name: <input type="text" name="name" id="name" v-model.lazy.trim="formData.name">
+                {{formData.name}}</label>
+            <label for="number">number: <input type="number" name="number" id="number" v-model="formData.number">
+                {{formData.number}}</label>
+            <fieldset>
+                <legend>checkbox:{{formData.checkboxValue}}</legend>
+                <label :for="'c'+value" v-for="({label,value}) of checkboxValues"> <input :id="'c'+value"
+                        type="checkbox" name="checkboxValue" :value="value"
+                        v-model="formData.checkboxValue">{{label}}</label>
+            </fieldset>
+            <fieldset>
+                <legend>radio:{{formData.radioValue}}</legend>
+                <label for="r1"> <input type="radio" name="radioValue" value="1" v-model="formData.radioValue">1</label>
+                <label for="r2"> <input type="radio" name="radioValue" value="2" v-model="formData.radioValue">2</label>
+                <label for="r3"> <input type="radio" name="radioValue" value="3" v-model="formData.radioValue">3</label>
+            </fieldset>
+            <label for="selectValue">
+                select: {{formData.selectValue}}
+                <select name="selectValue" id="selectValue" v-model="formData.selectValue">
+                    <option disabled value="">Please select one</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </label>
+            <div>
+                <label for="rule">
+                    <input type="checkbox" name="rule" id="rule" v-modal="ruleChecked" true-value="yes" false-value="no">
+                </label>
+                <button type="submit" @click.prevent="submit(formData,$event)">submit</button>
+            </div>
+        </form>
+    </section>
+    <script>
+        createApp({
+
+            setup() {
+                const checkboxValues = ref([{ label: "label1", value: 1 }, { label: "label2", value: 2 }, { label: "label3", value: 3 }])
+                const formData = ref({
+                    name: "",
+                    number: "",
+                    checkboxValue: [],
+                    radioValue: "",
+                    selectValue: ""
+                });
+                const ruleChecked = ref("yes")
+                const submit = (data, event) => {
+                    console.log(ruleChecked.value)
+                    console.log(data, formData.value, event)
+                };
+                return {
+                    formData,
+                    checkboxValues,
+                    ruleChecked,
+                    submit
+                }
+            }
+        }).mount("#section9")
+    </script>
+    <h2>Section 10: lifecycle hooks</h2>
+    <section id="section10">
+        <p>num: {{num}} <button type="button" @click="num++">add</button></p>
+    </section>
+    <script>
+        const { watch, onMounted, onUpdated, onBeforeUpdate } = Vue;
+        createApp({
+            beforeCreate() {
+                console.log("beforeCreate")
+            },
+            created() {
+                console.log("created")
+            },
+            beforeMount() {
+                console.log("beforeMount")
+            },
+            mounted() {
+                console.log("mounted")
+            },
+            beforeUpdate() {
+                console.log("beforeUpdate")
+            },
+            updated() {
+                console.log("updated")
+            },
+            beforeUnmount() {
+                console.log("beforeUnmount")
+            },
+            unmounted() {
+                console.log("unmounted")
+            },
+            setup() {
+                console.log("setup")
+                const num = ref(1);
+                onMounted(() => {
+                    console.log("onMounted")
+                })
+                return {
+                    num
+                }
+            }
+        }).mount("#section10")
+    </script>
+    <h2>Section 11: watch</h2>
+    <section id="section11">
+        <p>basic watch: {{num}} <button type="button" @click="num++">change</button></p>
+        <p>reactive object: {{reactiveObj}} <button type="button" @click="reactiveObj.a++">change reactiveObj.a</button>
+            <button type="button" @click="reactiveObj.b.c++">change reactiveObj.b.c</button>
+        </p>
+    </section>
+    <script>
+        const { watchEffect, watchPostEffect, watchSyncEffect } = Vue
+        createApp({
+            setup() {
+                const num = ref(1);
+                const reactiveObj = reactive({ a: 1, b: { c: 1 } })
+                const unwatch = watch(num, (nV, oV) => {
+                    console.log("basic", nV, oV)
+                })
+                watch(() => num.value ** 2, (nV, oV) => {
+                    console.log("getter", nV, oV)
+                })
+                watch([num, () => num.value ** 2], (nV, oV) => {
+                    console.log("array", nV, oV)
+                })
+                watch(reactiveObj, (nV, oV) => {
+                    console.log("reactiveObj", nV, oV)
+                })
+                watch(() => reactiveObj.b, (nV, oV) => {
+                    console.log("reactiveObj.b deep", nV, oV)
+                }, {
+                    deep: true
+                })
+                watch(() => reactiveObj.b, (nV, oV) => {
+                    console.log("reactiveObj.b deep immediate once", nV, oV)
+                }, { deep: true, immediate: true, once: true })
+                watchEffect(() => {
+                    let a = num.value + 100;
+                    let b = reactiveObj.b.c;
+                    console.log("watchEffect: " + a + b)
+                })
+                watchPostEffect(() => {
+                    let a = num.value + 100;
+                    let b = reactiveObj.b.c;
+                    console.log("watchPostEffect: " + a + b)
+                })
+                watchSyncEffect(() => {
+                    let a = num.value + 100;
+                    let b = reactiveObj.b.c;
+                    console.log("watchSyncEffect: " + a + b)
+                })
+                onBeforeUpdate(() => {
+                    console.log("section11 onBeforeUpdate")
+                })
+                onUpdated(() => {
+                    console.log("section11 onupdated")
+                    unwatch();
+                })
+
+                return {
+                    num,
+                    reactiveObj
+                }
+            }
+        }).mount("#section11")
+    </script>
+    <h2>Section 12: template refs</h2>
+    <section id="section12">
+        <p ref="p1">element ref: p1</p>
+        <p>input: <input type="text" ref="input"></p>
+        <p>refs inside v-for：<span v-for="item of arr" ref="items">{{item}},</span> </p>
+        <p :ref="(element)=>{fnRef=element}"> function ref <button @click="console.log(fnRef)">show fnRef</button></p>
+        <component1 ref="component1"></component1>
+    </section>
+    <script>
+        const { defineExpose } = Vue;
+        const component1 = {
+            setup() {
+                const fn1 = () => {
+
+                }
+                const count = ref(0)
+                defineExpose({
+                    fn1,
+                    fn1
+                })
+                return { count, fn1 }
+            },
+            template: `
+            <button @click="count++">
+            You clicked me {{ count }} times.
+            </button>`
+            // Can also target an in-DOM template:
+            // template: '#my-template-element'
+        }
+        const app12 = createApp({
+            components: {
+                component1
+            },
+            setup() {
+                const arr = ref([1, 2, 3, 4, 5, 6])
+                const p1 = ref(null);
+                const input = ref(null);
+                const items = ref([]);
+                const fnRef = ref(null);
+                const component1 = ref(null);
+                onMounted(() => {
+                    console.log(p1.value);
+                    console.log(input.value);
+                    console.log(items.value[0]);
+                    console.log(component1.value)
+                })
+                return {
+                    p1,
+                    input,
+                    arr,
+                    items,
+                    component1
+                }
+            }
+        }).mount("#section12");
+    </script>
+    <h2>Section 13: components basic</h2>
+    <section id="section13">
+        <p> basic:
+            <component-a></component-a>
+        </p>
+        <p>
+            props and emits:
+        <div :style="{fontSize:fontSize+'em'}">
+
+            <component-b v-for="({title,content}) of list" :key="title" :title="title" :content="content"
+                @enlarge="fontSize+=0.1"></component-b>
+
+        </div>
+        </p>
+
+        <p>
+            slot:
+            <component-c>
+                <span>solt</span>
+            </component-c>
+        </p>
+
+
+        <p> dynamic component:
+            <component is="componentA"></component>
+        </p>
+    </section>
+    <script>
+        const componentA = {
+            setup() {
+                const count = ref(0);
+                return {
+                    count
+                }
+            },
+            template: `<p>componentA: {{count}} <button type="button" @click="count++">count++</button></p>`
+        }
+        const componentB = {
+            props: ["title", "content"],
+            emits: ["enlarge"],
+            setup(props, ctx) {
+                console.log(props, ctx)
+                const fn1 = () => {
+                    ctx.emit("enlarge")
+                }
+                return {
+                    fn1
+                }
+            },
+            template: `<article>
+                            <h5>{{title}}</h5>
+                            <p>{{content}}</p>
+                            <button type="button" @click="fn1">enlarge</button>
+                       </article>`
+        }
+        const componentC = {
+            setup() {
+                return {}
+            },
+            template: `<div>
+                    <p>solt1: <slot></slot></p>
+                </div>`
+        }
+        createApp({
+            components: {
+                componentA,
+                componentB,
+                componentC
+            },
+            setup() {
+                const list = ref([{ title: "title1", content: "content1" }])
+                const fontSize = ref(1);
+                return {
+                    list,
+                    fontSize
+                }
+            }
+        }).mount("#section13")
+    </script>
+</body>
+
+</html>

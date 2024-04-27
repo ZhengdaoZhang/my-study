@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 2</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const { createApp, ref } = Vue;
+    </script>
+</head>
+
+<body>
+    <div>
+        <section id="section1"></section>
+        <script>
+            const Section1ComponentB = {
+                template: `<h3>Local Components Section1ComponentB</h3>`,
+                setup() {
+                    return {}
+                }
+            }
+            const Section1ComponentA = {
+                template: `<h3>Global Components Section1ComponentA</h3>`,
+                setup() {
+                    return {}
+                }
+            }
+            const section1 = createApp({
+                template: `
+                <h2>Section 1: components registration</h2>
+                <section1-component-a></section1-component-a>
+                <section1-component-b></section1-component-b>
+                <Section1ComponentB></Section1ComponentB>
+                `,
+                components: { Section1ComponentB },
+                setup() {
+                    return {
+
+                    }
+                }
+            })
+            section1.component("Section1ComponentA", Section1ComponentA)
+            section1.mount("#section1")
+        </script>
+        <section id="section2">
+        </section>
+        <script>
+            const { computed } = Vue;
+            const Section2ComponentA = {
+                template: `<h3>declaring props using an array of strings: {{title}}</h3>`,
+                props: ["title"],
+                setup(props) {
+                    return {
+                    }
+                }
+            }
+            const Section2ComponentB = {
+                template: `<h3>declaring props using an object: {{computedTitle}}</h3>`,
+                props: {
+                    mainTitle: String
+                },
+                setup(props) {
+                    const computedTitle = computed(() => {
+                        return props.mainTitle + " computed"
+                    })
+                    return {
+                        computedTitle
+                    }
+                }
+            }
+            const Section2ComponentC = {
+                template: `
+                    <h2>Section 2: props</h2>
+                    <p>default value: {{pNumber}}</p>
+                    <p >required value: {{requiredValue}}</p>
+                    <p >validator value: {{validatorValue}}</p>
+                `,
+                props: {
+                    pNumber: {
+                        type: Number,
+                        default: 1
+                    },
+                    requiredValue: {
+                        type: String,
+                        required: true,
+                    },
+                    validatorValue: {
+                        type: String,
+                        validator(value, props) {
+                            console.log(value, props)
+                            return ['success', 'warning', 'danger'].includes(value)
+                        }
+
+                    }
+                },
+                setup(props) {
+                    const computedTitle = computed(() => {
+                        return props.mainTitle + " computed"
+                    })
+                    return {
+                        computedTitle
+                    }
+                }
+            }
+            createApp({
+                template: `
+                    <Section2ComponentA title="this is a prop"></Section2ComponentA>
+                    <Section2ComponentB :main-title="'this is a '+ mainTitle"></Section2ComponentB>
+                    <button @click="changeMainTitle">change mainTitle</button>
+                    <Section2ComponentC v-bind="object1"></Section2ComponentC>
+                `,
+                components: {
+                    Section2ComponentA,
+                    Section2ComponentB,
+                    Section2ComponentC
+                },
+                setup() {
+                    const mainTitle = ref("Dynamic Props");
+                    const changeMainTitle = () => {
+                        mainTitle.value += " change"
+                        console.log(mainTitle)
+                    }
+                    const object1 = ref({
+                        requiredValue: "requiredValue",
+                        validatorValue: "warning"
+                    })
+                    return {
+                        mainTitle,
+                        changeMainTitle,
+                        object1
+                    }
+                }
+            }).mount("#section2")
+        </script>
+        <section id="section3"></section>
+        <script>
+            const Section3ComponentA = {
+                template: `<p>children: <button type="button" @click="buttonClick">updateParent</button></p>`,
+                emits: {
+                    updateParent: (v1, v2) => {
+                        console.log(v1, v2)
+                        return true
+                    }
+                },
+                setup(_props, ctx) {
+                    const num = ref(0);
+                    const buttonClick = () => {
+                        num.value++;
+                        ctx.emit("updateParent", num.value, "one")
+                    }
+                    return {
+                        buttonClick
+                    }
+                }
+            }
+            createApp({
+                components: {
+                    Section3ComponentA
+                },
+                template: `
+                    <h2>Section 3: emitting and listening to Events</h2>
+                    <p>parent: receive value ({{receiveValue}}) </p>
+                    <Section3ComponentA @update-parent="childrenEmit"></Section3ComponentA>
+                `,
+                setup() {
+                    const receiveValue = ref(null);
+                    const childrenEmit = (value1, value2) => {
+                        receiveValue.value = value1 + value2;
+                    }
+                    return {
+                        receiveValue,
+                        childrenEmit
+                    }
+                }
+            }).mount("#section3")
+        </script>
+        <section id="section4"></section>
+        <script>
+            const { watch } = Vue;
+            const Section4ComponentA = {
+                template: `
+                <p> children component:
+                    <input
+                    :value="modelValue"
+                    @input="emitValue"
+                />
+                    {{modelValue}}
+                </p>
+               
+                
+                `,
+                props: {
+                    modelValue: String,
+                    modelModifiers: { default: null }
+                },
+                emits: ["update:modelValue"],
+                setup(props, ctx) {
+                    const emitValue = (e) => {
+                        let value = e.target.value;
+                        console.log(props.modelModifiers)
+                        if (props.modelModifiers.aaa) {
+                            value += "999"
+                        }
+                        ctx.emit('update:modelValue', value)
+                    }
+                    return {
+                        emitValue,
+                    }
+                }
+            }
+            createApp({
+                components: {
+                    Section4ComponentA
+                },
+                template: `
+                <h2>Section 4: component v-model</h2>
+                <p>parent component : {{value1}} <button type="button" @click="value1=''">reset value</button></p>
+                <Section4ComponentA v-model.aaa="value1"></Section4ComponentA>
+                `,
+                setup() {
+                    const value1 = ref("");
+                    watch(value1, (n, o) => {
+                        console.log("", n, o)
+                    })
+                    return {
+                        value1
+                    }
+                }
+            }).mount("#section4")
+        </script>
+        <section id="section5"></section>
+        <script>
+            const Section5ComponentA = {
+                template: `<p style="font-size:12px;" class="class1" @click="console.log('children component')">class and style merging : </p>`,
+
+                setup(_props, ctx) {
+                    console.log("ctx.attrs", ctx.attrs)
+                    return {}
+                }
+            };
+            const Section5ComponentB = {
+                template: `
+                <p>multiple root nodes: </p>
+                <p>root node1</p>
+                <p style="font-size:12px;" class="class1" @click="console.log('children component')" v-bind="attrs">root node2 </p>
+                `,
+                inheritAttrs: false,
+                setup(_props, { attrs }) {
+                    console.log(attrs)
+                    return {
+                        attrs
+                    }
+                }
+            };
+            createApp({
+                components: {
+                    Section5ComponentA,
+                    Section5ComponentB
+                },
+                template: `
+                <h2>Section 5: fallthrough attributes</h2>
+                <Section5ComponentA class="class2" style="font-size:20px;color:red;" @click="console.log('parent component')"></Section5ComponentA>
+                <Section5ComponentB class="class2" style="font-size:20px;color:red;" @click="console.log('parent component')"></Section5ComponentB>
+                `
+
+            }).mount("#section5")
+        </script>
+        <section id="section6"></section>
+        <script>
+            const Section6ComponentA = {
+                template: `<button type="button"><slot>fallback content</slot></button>`
+            }
+            const Section6ComponentB = {
+                template: `<span ><slot name="left">left_1</slot><slot>center_1</slot><slot name="right">right_1</slot></span>`
+            }
+            const Section6ComponentC = {
+                template: `
+                <span>
+                    <slot :text="name" :val="1"></slot>
+                </span>
+                `,
+                setup() {
+                    const name = ref("value")
+                    const value = ref(100)
+                    return {
+                        name,
+                        value
+                    }
+                }
+            }
+            const Section6ComponentD = {
+                template: `
+                <span>
+                    <slot :text="name" :val="1"></slot>
+                    <slot name="append" :count="value"></slot>
+                </span>
+                `,
+                setup() {
+                    const name = ref("value")
+                    const value = ref(100)
+                    return {
+                        name,
+                        value
+                    }
+                }
+            }
+            const Section6ComponentE = {
+                template: `
+                <ul>
+                    <li v-for="item of list">
+                        <slot name="item" :val="item"></slot>
+                    </li>
+                </ul>
+                `,
+                setup() {
+                    const list = ref([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+                    return {
+                        list
+                    }
+                }
+            }
+            createApp({
+                components: {
+                    Section6ComponentA,
+                    Section6ComponentB,
+                    Section6ComponentC,
+                    Section6ComponentD,
+                    Section6ComponentE
+                },
+                template: `
+                <h2>Section 6: slot</h2>
+                <p>slot content and outlet: <Section6ComponentA><span style="color:#f00;">{{slotcontent}}</span></Section6ComponentA></p>
+                <p>fallback content: <Section6ComponentA></Section6ComponentA></p>
+                <p>named slots: 
+                    <Section6ComponentB>
+                        <template #[slotVal]>left-</template>
+                        <template #default></template>
+                        <template #right>-right</template>
+                    </Section6ComponentB>
+                </p>
+                <p>scoped slots simgle slot:  
+                    <Section6ComponentC v-slot="data">{{data}}</Section6ComponentC>   
+                    <Section6ComponentC>
+                        <template v-slot:default="data">{{data}}</template>
+                    </Section6ComponentC>   
+                </p>
+                <p> scoped slots multiple slots:
+                    <Section6ComponentD>
+                        <template v-slot:default="props">{{props}}-</template>
+                        <template #append="scope" >{{scope}}</template>
+                    </Section6ComponentD>
+                </p>
+                <p>fancy list example</p>
+                <Section6ComponentE>
+                    <template  #item="prop">{{prop}}</template>
+                </Section6ComponentE>
+                `,
+                setup() {
+                    const slotcontent = ref("slot content")
+                    const slotVal = ref("left")
+                    return {
+                        slotcontent,
+                        slotVal
+                    }
+                }
+            }).mount("#section6")
+        </script>
+        <section id="section7"></section>
+        <script>
+            const { provide, inject } = Vue;
+            const Section7ComponentA = {
+                template: `
+                    <span>childrenA(<slot></slot>)</span> 
+                `,
+                setup() {
+                    return {}
+                }
+            }
+            const Section7ComponentB = {
+                template: `
+                    <span>childrenB(<slot></slot>)</span> 
+                `,
+                setup() {
+                    return {}
+                }
+            }
+            const Section7ComponentC = {
+                template: `
+                    <span>childrenC({{parentVal}}|{{appLevelProvide}}|{{defaultInjectValue}})</span> 
+                `,
+                setup() {
+                    const parentVal = inject("parentVal")
+                    const { appLevelProvide } = inject("appLevelProvide")
+                    const defaultInjectValue = inject("asdasda", "defaultInjectValue")
+                    return {
+                        parentVal,
+                        appLevelProvide,
+                        defaultInjectValue
+                    }
+                }
+            }
+            const app = createApp({
+                components: {
+                    Section7ComponentA,
+                    Section7ComponentB,
+                    Section7ComponentC
+                },
+                template: `
+                    <h2>Section 7: provide/inject</h2>
+                    <p>provide value: {{parentVal}} <button @click="parentVal+='!'">change parentVal</button></p>
+                    <p>app-level provide value: {{appLevelProvide}} <button @click="changeAppLevelProvide">change appLevelProvide</button></p>
+                    <Section7ComponentA>
+                        <Section7ComponentB>
+                            <Section7ComponentC></Section7ComponentC>
+                        </Section7ComponentB>
+                    </Section7ComponentA>
+                `,
+                setup() {
+                    const parentVal = ref("parent value");
+                    const { appLevelProvide, changeAppLevelProvide } = inject("appLevelProvide")
+                    provide("parentVal", parentVal)
+                    return {
+                        parentVal,
+                        appLevelProvide,
+                        changeAppLevelProvide
+                    }
+                }
+            })
+            const appLevelProvide = ref("appLevelProvide")
+            const changeAppLevelProvide = () => {
+                appLevelProvide.value += "!"
+            }
+            app.provide("appLevelProvide", {
+                appLevelProvide,
+                changeAppLevelProvide
+            })
+            app.mount("#section7")
+        </script>
+    </div>
+</body>
+
+</html>

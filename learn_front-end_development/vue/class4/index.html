@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 4</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const { createApp, ref, onUnmounted } = Vue;
+    </script>
+</head>
+
+<body>
+
+    <main>
+        <section id="section1"></section>
+        <style>
+            .v-enter-from {
+                top: 400px;
+            }
+
+            .v-enter-active {
+                transition: top 10s ease;
+            }
+
+            .v-enter-to {
+                top: 0;
+            }
+
+            .v-leave-from {
+                opacity: 1;
+            }
+
+            .v-leave-active {
+                transition: opacity 10s ease;
+            }
+
+            .v-leave-to {
+                opacity: 0;
+            }
+
+            .zzd-enter-from {
+                left: 300px;
+                opacity: 0;
+            }
+
+            .zzd-enter-active {
+                transition: 10s ease;
+            }
+
+            .zzd-enter-to {
+                left: 0;
+                opacity: 1;
+            }
+
+            .zzd-leave-from {
+                left: 0;
+                opacity: 1;
+            }
+
+            .zzd-leave-active {
+                transition: 10s ease;
+            }
+
+            .zzd-leave-to {
+                left: 300px;
+                opacity: 0;
+            }
+
+            @keyframes ani {
+                0% {
+                    transform: scale(0);
+                }
+
+                50% {
+                    transform: scale(5);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+
+            .ani-enssster-active {
+                animation: ani 10s;
+            }
+
+            .ani-leave-active {
+                animation: ani 10s reverse;
+            }
+
+
+            .slide-up-enter-active,
+            .slide-up-leave-active {
+                transition: all 0.25s ease-out;
+            }
+
+            .slide-up-enter-from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            .slide-up-leave-to {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+        </style>
+        <script>
+            const section1 = createApp({
+                template: `
+                <h2>Section 1: Transition component</h2>
+                <p>transition component: 
+                    <button type="button" @click="showSpan=!showSpan">toggle transition</button>
+                    <br>
+                    <br>
+                    <Transition>
+                        <span v-if="showSpan" style="position:relative;">_target_1</span>
+                    </Transition>
+                    <Transition name="zzd">
+                        <span v-if="showSpan" style="position:relative;">_target_2</span>
+                    </Transition>
+                    <Transition name="ani" enter-active-class="ani-enssster-active" type="animation" :duration="10000" >
+                        <span v-if="showSpan" style="display:inline-block;" >_target_3</span>
+                    </Transition>
+                    <Transition name="ani" enter-active-class="ani-enssster-active" type="animation" :duration="{enter:10000,leave:10000}" appear>
+                        <span v-if="showSpan" style="display:inline-block;" >_target_4</span>
+                    </Transition>
+                </p>
+                <p>transition between elements:
+                    <Transition name="slide-up">
+                        <button v-if="docState === 'saved'" @click="docState ='edited'" style="position: absolute;">Edit</button>
+                        <button v-else-if="docState === 'edited'" @click="docState ='editing'"  style="position: absolute;">Save</button>
+                        <button v-else-if="docState === 'editing'" @click="docState ='saved'"  style="position: absolute;">Cancel</button>
+                    </Transition>
+                </p>
+                <p>transition width the key attribute:
+                    <Transition name="slide-up">
+                        <span :key="count" style="position:absolute;">{{count}}</span>
+                    </Transition>
+                </p>
+                `,
+                setup() {
+                    const showSpan = ref(true)
+                    const docState = ref("saved");
+
+                    const count = ref(0);
+
+                    const counter = setInterval(() => {
+                        count.value++;
+                        if (count === 100) {
+                            clearInterval(counter)
+                        }
+                    }, 1000);
+
+                    onUnmounted(() => {
+                        clearInterval(counter)
+                    })
+                    function onBeforeEnter(el) { }
+
+                    // called one frame after the element is inserted.
+                    // use this to start the entering animation.
+                    function onEnter(el, done) {
+                        // call the done callback to indicate transition end
+                        // optional if used in combination with CSS
+                        done()
+                    }
+
+                    // called when the enter transition has finished.
+                    function onAfterEnter(el) { }
+
+                    // called when the enter transition is cancelled before completion.
+                    function onEnterCancelled(el) { }
+
+                    // called before the leave hook.
+                    // Most of the time, you should just use the leave hook
+                    function onBeforeLeave(el) { }
+
+                    // called when the leave transition starts.
+                    // use this to start the leaving animation.
+                    function onLeave(el, done) {
+                        // call the done callback to indicate transition end
+                        // optional if used in combination with CSS
+                        done()
+                    }
+
+                    // called when the leave transition has finished and the
+                    // element has been removed from the DOM.
+                    function onAfterLeave(el) { }
+
+                    // only available with v-show transitions
+                    function onLeaveCancelled(el) { }
+                    return {
+                        showSpan,
+                        docState,
+                        count
+                    }
+                }
+            })
+            section1.mount("#section1")
+
+        </script>
+        <style>
+            .list-enter-from {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+
+            .list-enter-active {
+                transition: 5s;
+            }
+
+
+            .list-leave-to {
+                opacity: 0;
+                transform: translateX(30px);
+            }
+
+            .list-leave-active {
+                transition: 5s;
+                position: absolute;
+            }
+
+            .list-move {
+                transition: 5s;
+            }
+        </style>
+        <section id="section2"></section>
+        <script>
+            const section2 = createApp({
+                template: `
+                <h2>section 2: TransitionGroup component</h2>
+                <div>
+                    <p>list: <button type="button" @click="addItem">add Item</button> <button type="button" @click="deleteItem">delete Item</button></p>
+                    <TransitionGroup tag="ul" name="list" appear>
+                        <li v-for="item of list" :key="item" >{{item}}</li>    
+                    </TransitionGroup>
+                </div>
+                `,
+                setup() {
+                    const list = ref([1, 2, 3, 4, 5])
+                    function getRandomIndex(arr) {
+                        return Math.floor(Math.random() * arr.length)
+                    }
+                    function addItem() {
+                        const max = Math.max(...list.value);
+                        list.value.splice(getRandomIndex(list.value), 0, max + 1)
+                    }
+                    function deleteItem() {
+                        list.value.splice(getRandomIndex(list.value), 1)
+                    }
+                    return {
+                        list,
+                        addItem,
+                        deleteItem
+                    }
+                }
+            })
+
+            section2.mount("#section2")
+        </script>
+        <section id="section3"></section>
+        <script>
+            const { onActivated, onDeactivated } = Vue
+            const Section3ComponentA = {
+                name: "Section3ComponentA",
+                template: `<p>input: {{inputText}} <input type="text" v-model="inputText" ></p>`,
+                setup() {
+                    const inputText = ref("");
+                    return {
+                        inputText
+                    }
+                }
+            }
+            const Section3ComponentB = {
+                name: "Section3ComponentB",
+                template: `<p>count: {{count}} <button type="number" @click="count++">count++</button></p>`,
+                setup() {
+                    const count = ref(0);
+                    onActivated(() => {
+                        console.log("KeepAlive-onActivited")
+                    })
+                    onDeactivated(() => {
+                        console.log("KeepAlive-onDeactivited")
+                    })
+                    return {
+                        count
+                    }
+                }
+            }
+
+            const section3 = createApp({
+                components: {
+                    Section3ComponentA,
+                    Section3ComponentB
+                },
+                template: `
+                <h2>Section 3: KeepAlive</h2>
+                <div><button type="button" @click="changeComponentName">change component</button></div>
+                <div>
+                    <p>use component: </p>
+                    <component :is="componentName"></component>
+                </div>
+                <div>
+                    <p>use KeepAlive component :  </p>
+                    <KeepAlive  :include="['Section3ComponentB', 'b']" :max="10">
+                        <component :is="componentName"></component>
+                    </KeepAlive>
+                </div>
+                `,
+                setup() {
+                    const componentName = ref("Section3ComponentA");
+                    function changeComponentName() {
+                        componentName.value = componentName.value === "Section3ComponentA" ? "Section3ComponentB" : "Section3ComponentA"
+                    }
+                    return {
+                        componentName,
+                        changeComponentName
+                    }
+                }
+            })
+
+            section3.mount("#section3")
+        </script>
+        <section id="section4"></section>
+        <script>
+            const section4 = createApp({
+                template: `
+                <h2>Section 4: teleport</h2>
+                <p>this is a teleport: 
+                    <Teleport to="body">
+                        <p class="modal">this is a teleport content1</p>
+                    </Teleport>
+                    <Teleport to="body" :disabled="isDisable" >
+                        <p class="modal modal2">this is a teleport content2 {{isDisable}}</p>
+                    </Teleport>
+                </p>
+                `,
+                setup() {
+                    const isDisable = ref(true);
+                    return {
+                        isDisable
+                    }
+                }
+            })
+            section4.mount("#section4")
+        </script>
+    </main>
+    <style>
+        .modal {
+            position: fixed;
+            right: 0;
+            top: 50%;
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+
+        }
+
+        .modal2 {
+            top: calc(50% + 200px);
+        }
+    </style>
+</body>
+
+</html>
