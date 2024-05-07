@@ -108,10 +108,11 @@
                 @click='author.books.push("akjsdhkalsjd")'>change books</button></p>
 
         <p>writable computed: value = {{fullName}} <button @click="fullName='zx z'">chengeValue</button></p>
-
+        <p>computed currentTime: {{currentTime}}</p>
+        <p>method currentTime: {{currentTime2()}}</p>
     </section>
     <script>
-        const { computed } = Vue;
+        const { computed, nextTick } = Vue;
         createApp({
             setup() {
                 const author = ref({
@@ -128,6 +129,14 @@
                 const publishedBooksMessageMethod = () => {
                     return author.value.books.length
                 }
+                const currentTime = computed(() => {
+                    return new Date();
+                })
+
+                const currentTime2 = () => {
+                    return new Date();
+                }
+
 
                 const firstName = ref("zd");
                 const lastName = ref("z");
@@ -140,12 +149,13 @@
                         [firstName.value, lastName.value] = newValue.split(' ')
                     }
                 })
-
                 return {
                     author,
                     publishedBooksMessage,
                     publishedBooksMessageMethod,
-                    fullName
+                    fullName,
+                    currentTime,
+                    currentTime2,
                 }
             }
         }).mount("#section4")
@@ -320,7 +330,8 @@
             </label>
             <div>
                 <label for="rule">
-                    <input type="checkbox" name="rule" id="rule" v-modal="ruleChecked" true-value="yes" false-value="no">
+                    <input type="checkbox" name="rule" id="rule" v-modal="ruleChecked" true-value="yes"
+                        false-value="no">
                 </label>
                 <button type="submit" @click.prevent="submit(formData,$event)">submit</button>
             </div>
