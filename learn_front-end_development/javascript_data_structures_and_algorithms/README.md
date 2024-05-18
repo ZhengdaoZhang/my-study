@@ -114,3 +114,7 @@ This project will cover the Fetch API, promises, Async/Await, and the try...catc
 
 This is one of required projects to earn your certification.
 For this project, you'll build a Pokémon search app.
+
+### sort
+
+There are some sort algorithms.
