@@ -10,9 +10,9 @@ const quick = document.getElementById("quick");
 function bubbleSort(arr) {
     const res = [...arr];
 
-    for (let i = 0; i <= res.length - 1; i++) {
+    for (let i = 0; i < res.length; i++) {
 
-        for (let j = 0; j <= res.length - 1 - i; j++) {
+        for (let j = 0; j < res.length - 1 - i; j++) {
 
             if (res[j] > res[j + 1]) {
 
@@ -28,10 +28,10 @@ function bubbleSort(arr) {
 function selectionSort() {
     const res = [...arr];
 
-    for (let i = 0; i <= res.length - 1; i++) {
+    for (let i = 0; i < res.length      ; i++) {
         let targetIndex = i;
 
-        for (let j = i + 1; j <= res.length - 1; j++) {
+        for (let j = i + 1; j < res.length; j++) {
 
             if (res[j] < res[targetIndex]) {
                 targetIndex = j;
@@ -49,7 +49,7 @@ function selectionSort() {
 function insertionSort(arr) {
     let res = [...arr];
 
-    for (let i = 1; i <= res.length - 1; i++) {
+    for (let i = 1; i < res.length; i++) {
 
         let currentValue = res[i];
         let preIndex = i - 1;
@@ -83,7 +83,7 @@ function quickSort(arr) {
         item > middleValue ? right.push(item) : left.push(item);
 
     }
-    
+
     return [...quickSort(left), middleValue, ...quickSort(right)];
 }
 
