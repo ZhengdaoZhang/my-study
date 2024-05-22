@@ -15,20 +15,20 @@ function bubbleSort(arr) {
         for (let j = 0; j < res.length - 1 - i; j++) {
 
             if (res[j] > res[j + 1]) {
-
-                [res[j], res[j + 1]] = [res[j + 1], res[j]]
+                [res[j], res[j + 1]] = [res[j + 1], res[j]];
             }
 
         }
 
     }
+
     return res;
 }
 
 function selectionSort() {
     const res = [...arr];
 
-    for (let i = 0; i < res.length      ; i++) {
+    for (let i = 0; i < res.length; i++) {
         let targetIndex = i;
 
         for (let j = i + 1; j < res.length; j++) {
@@ -39,7 +39,7 @@ function selectionSort() {
 
         }
 
-        [res[i], res[targetIndex]] = [res[targetIndex], res[i]]
+        [res[i], res[targetIndex]] = [res[targetIndex], res[i]];
 
     }
 
@@ -79,9 +79,7 @@ function quickSort(arr) {
     let right = [];
 
     for (let item of res) {
-
-        item > middleValue ? right.push(item) : left.push(item);
-
+        item < middleValue ? left.push(item) : right.push(item);
     }
 
     return [...quickSort(left), middleValue, ...quickSort(right)];
