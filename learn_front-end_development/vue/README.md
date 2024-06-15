@@ -247,4 +247,38 @@ Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user 
 - component
 - end-to-end
 
-### section 6: ssr
+### section 6: server-side randering
+
+## class 6: best practices
+
+### section 1: production deployment
+
+### section 2: performance
+
+### section 3: accessbility
+
+### section 4: security
+
+## class 7: typescript
+
+### section 1: overview
+
+### section 2: ts with composition API
+
+### section 3: ts with options API
+
+## class 7: extra topics
+
+### section 1: ways of using Vue
+
+### section 2: composition API FAQ
+
+### section 3: reactive in depth
+
+### section 4: rendering mechanism
+
+### section 5: render function & JSX
+
+### section 6: Vue and web components
+
+### section 7: animation techniques
