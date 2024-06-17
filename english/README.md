@@ -583,9 +583,9 @@ In this course, you'll learn how to ask about what motivations people in their p
 
 ### Dialogue 1: What motivation the team
 
-B: Maria, I have a question. Do you know what motivates the team? How about you? Waht makes you feel motivated?
+B: Maria, I have a question. Do you know what motivates the team? How about you? What makes you feel motivated?
 M: Hi Brian! Well, one thing that really motivates me is learning new things. I love exploring many new technologies and improving my skills. It keeps me excited about our projects.
-B: That's great to hear, Maria. Learning and growing professionally motivates me a lot. But you konw what demotivetes me sometimes? Dealing with many tight deadlines and feeling like i'm rushing to complete task.
+B: That's great to hear, Maria. Learning and growing professionally motivates me a lot. But you konw what demotivetes me sometimes? Dealing with many tight deadlines and feeling like i'm rushing to complete tasks.
 M: I can understand that, Brain. Racing against the clock can be demotivating. Well, collaborating with our creative team and brainstorming many ideas really inspires me. It's where we generate our best concepts.
 B: I agree, Maria. Collaboration and creativity are great. The problem is encountering any technical issues that slow our progress down. It's really frustrating.
 M: Yes, technical glitches are complicated and there's not much we can do other than try to solve them. But do you know what else is geat? Seeting the team's enthusiasm after solving these issues. When you see the team inspired, it's can boost your motivation.
