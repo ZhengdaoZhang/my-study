@@ -591,3 +591,13 @@ B: I agree, Maria. Collaboration and creativity are great. The problem is encoun
 M: Yes, technical glitches are complicated and there's not much we can do other than try to solve them. But do you know what else is geat? Seeting the team's enthusiasm after solving these issues. When you see the team inspired, it's can boost your motivation.
 B: Yes, wow. You know what? This was really a motivating talk. Thanks for sharing your thoughts.
 M: Anytime. It's good to have these discussions. It reminds us of what keeps us going.
+
+### Dialogue 2: Asking how someone feels
+
+A: Hi, Tom. You look a bit down these days. Is everthing okay?
+T: Hey, Alice. Yeah, I feel a bit demotivated. One thing that really gets to me is working long hours without any breaks. It's exhausting, and it feels like i'm constantly running without knowing where i'm going.
+A: I totally get that, Tom. Working overtime all the time can be draining. Personally, i hate dealing with office politics. It's frustrating when people are constantly trying to beat each other instead of working together as a team.
+T: You're right, Alice. Dealing with office politics is never fun. Another thing that gets to me is having too many meetings. Sometimes, it feels like we're meeting for no reason, and it's hard to find time to actually work on projects.
+A: I hear you, Tom. sitting in meetings for hours can be discouraging. For me, what really annoys me is having to do a bunch of repetitive tasks without any variation. I feels like i'm wasting my skills and creativity.
+M: That does sound frustrating, Alice. Repeating the same tasks over and over can be demotivating. Thanks for listening, by the way. It feels good to talk about these things.
+A: Of course, Tom. We all have our moments of demotivation, and it's good to share and support each other.
