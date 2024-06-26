@@ -601,3 +601,13 @@ T: You're right, Alice. Dealing with office politics is never fun. Another thing
 A: I hear you, Tom. sitting in meetings for hours can be discouraging. For me, what really annoys me is having to do a bunch of repetitive tasks without any variation. I feels like i'm wasting my skills and creativity.
 M: That does sound frustrating, Alice. Repeating the same tasks over and over can be demotivating. Thanks for listening, by the way. It feels good to talk about these things.
 A: Of course, Tom. We all have our moments of demotivation, and it's good to share and support each other.
+
+### Dialogue 3: Talking about motivations to pursue a career
+
+B: Hey, Lisa, what motivated you to choose a career in tech?
+L: One of my main motivations was the financial stability that tech jobs can provide. It allow me to plan for my future with confidence. In other fields. It's much more difficult to achieve this stability.
+B: Financial stability is certainly important, Lisa. For me, it was the opportunity to collaborate with experts from many fields and have different perspectives.
+L: Collaborating with diverse teams can be exciting, Brain. Another thing was the chance to be part of projects that push the limits of innovation and creativity.
+B: I'm with you on that one. I'm also interested in the flexibility that tech roles offer. They allow us to blance our jobs with personal interests and hobbies.
+L: Yeah. Also, the satisfaction of solving complex problems and finding practical solutions is really thrilling.
+B: Knowing that we soloved problems is really exciting, Lisa. I hope we keep getting as much motivations form it we can.
