@@ -620,3 +620,13 @@ B: Well, one of my favorite gadgets is the smartwatch. I love how it keeps me co
 S: Smartwatches are cool. I'm more into smartphones. The camera quality, the speed, and the number of apps available are what i like the most.
 B: Oh, smartphones are fantastic too, Sarah. Gadgets like these are transforming our daily lives. But you know what my obsession is these days? Drones! I love capturing stunning aerial shots and exploring new angles for photography.
 S: Drones are an open door for excting possibilities, Bob. Your passion for tech gadgets is contagious. It's amazing how these innovation keep making our lives more interesting and connected.
+
+### Dialogue 5: Discussing open-source software
+
+T: Hey, Sophie, what motivates you to work on open-source software projects in your free time?
+B: Well, i love contributing to open-source projects! I really like the sense of community and collaboration. It's incredible how people from around the world come together to create something amazing.
+T: Yeah, I checked out some open-source projects. But i admit that i have problems with the amount of time it can take to contribute. Sometimes it can be so time-consuming.
+B: I understand, Tom. It can be a commitment. But i can't stand seeing this great software being private. Open source is all about transparency and accessibility, and that's something i truly believe in.
+T: Yeah, transparency is a strong motivator for many developers. For me, i like the idea of practicing my skills and getting recognition for my contributions. It's fantastic way to show what you're capable of.
+B: Also, when software becomes obsolete because it's no longer maintained, there isn't much you can do to save it. With open source, there's always a chance for continuous improvement.
+T: That's true. The sustainability of open-source projects is something i'm growing to appreciate more. Thanks for sharing your motivations. I think i'll see if can find a projects to dedicate some spare time to.
