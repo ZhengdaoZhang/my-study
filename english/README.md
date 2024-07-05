@@ -638,6 +638,8 @@ In this course, you'll learn how to dicuss about things that everybody's talking
 ### Dialogue 1: Talking about artificial intelligence
 
 S: Hi, Tom. Have you hear about artificial intelligence?
-T: Absolutely Sophie, AI is amazing. It's all about teaching machines to think and learn like humans. Well, AI is everywhere. from chatbots that help with customer service to self-driving cars that use AI to navigate safely. In healthcare, it's used to analyze medical data and even assists in surgeries.
+T: Absolutely Sophie, AI is amazing. It's all about teaching machines to think and learn like humans.
+S: That sounds fascinating. But how is it used in the real world?
+T: Well, AI is everywhere. From chatbots that help with customer service to self-driving cars that use AI to navigate safely. In healthcare, it's used to analyze medical data and even assists in surgeries.
 S: Wow, that's incredible! But what about ethical concerns?
-T: Yeah, we have to make sure AI is used ethically and doesn't generate bias. But researcher and companies are Actively working on addressing these issues.
+T: Yeah, we have to make sure AI is used ethically and doesn't generate bias. But researcher and companies are actively working on addressing these issues.
