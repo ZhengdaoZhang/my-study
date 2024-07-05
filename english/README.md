@@ -630,3 +630,14 @@ B: I understand, Tom. It can be a commitment. But i can't stand seeing this grea
 T: Yeah, transparency is a strong motivator for many developers. For me, i like the idea of practicing my skills and getting recognition for my contributions. It's fantastic way to show what you're capable of.
 B: Also, when software becomes obsolete because it's no longer maintained, there isn't much you can do to save it. With open source, there's always a chance for continuous improvement.
 T: That's true. The sustainability of open-source projects is something i'm growing to appreciate more. Thanks for sharing your motivations. I think i'll see if can find a projects to dedicate some spare time to.
+
+## class 11: Learn how to discuss popular trends of technology
+
+In this course, you'll learn how to dicuss about things that everybody's talking about in technology these days.
+
+### Dialogue 1: Talking about artificial intelligence
+
+S: Hi, Tom. Have you hear about artificial intelligence?
+T: Absolutely Sophie, AI is amazing. It's all about teaching machines to think and learn like humans. Well, AI is everywhere. from chatbots that help with customer service to self-driving cars that use AI to navigate safely. In healthcare, it's used to analyze medical data and even assists in surgeries.
+S: Wow, that's incredible! But what about ethical concerns?
+T: Yeah, we have to make sure AI is used ethically and doesn't generate bias. But researcher and companies are Actively working on addressing these issues.
