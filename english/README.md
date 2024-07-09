@@ -652,3 +652,12 @@ T: Do you think they're here to stay?
 A: Absolutely, Tom. Remote work is likely to remain a big part of our lives. It offers flexibility and can help companies gain access to talent from many parts of the world.
 T: What other collaboration tools are there?
 A: Well, there are project management tools. They help teams to organize tasks. Also, cloud storage services make it easy to share and collaborate on documents.
+
+### Dialogue 3: Talking about Quantum Computing
+
+J: Sarah, have you heard about Quantum computing? I just heard about it for the first time. Are you familiar with it?
+S: I konw a little. Quantum Computing uses special computers to perform caclulations extremely quickly.
+J: That's cool. But what can it do besides calculating things?
+S: Well, it's not just for one thing. Quantum Computing can also help scientists with research. They're useful for studying things like molecules and drugs. They can help people invent new medicines. Some people also use Quantum Computing for protecting information with encryption.
+J: Wow, that's amazing. Is it hard to understand how quantum computers work?
+S: They may seem complicated, but there are lots of simple videos that can help you understand the basic ideas.
