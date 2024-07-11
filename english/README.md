@@ -661,3 +661,9 @@ J: That's cool. But what can it do besides calculating things?
 S: Well, it's not just for one thing. Quantum Computing can also help scientists with research. They're useful for studying things like molecules and drugs. They can help people invent new medicines. Some people also use Quantum Computing for protecting information with encryption.
 J: Wow, that's amazing. Is it hard to understand how quantum computers work?
 S: They may seem complicated, but there are lots of simple videos that can help you understand the basic ideas.
+
+### Dialogue 4: Talking about Biomertrics
+
+T: Alice, what's the deal with biomertrics. I keep hearing about facial recognition and fingerprint scanning.
+A: Biomertrics is the use of physical or behavioral traits for security. It's used for access control like unlocking your phone with your face or fingerprint. Also, it's used for identity verification at airports and secure facilities.
+T: Is it safe?
