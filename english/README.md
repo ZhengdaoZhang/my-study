@@ -662,8 +662,20 @@ S: Well, it's not just for one thing. Quantum Computing can also help scientists
 J: Wow, that's amazing. Is it hard to understand how quantum computers work?
 S: They may seem complicated, but there are lots of simple videos that can help you understand the basic ideas.
 
-### Dialogue 4: Talking about Biomertrics
+### Dialogue 4: Talking about Biometrics
 
-T: Alice, what's the deal with biomertrics. I keep hearing about facial recognition and fingerprint scanning.
-A: Biomertrics is the use of physical or behavioral traits for security. It's used for access control like unlocking your phone with your face or fingerprint. Also, it's used for identity verification at airports and secure facilities.
+T: Alice, what's the deal with biometrics? I keep hearing about facial recognition and fingerprint scanning.
+A: Biometrics is the use of physical or behavioral traits for security. It's used for access control like unlocking your phone with your face or fingerprint. Also, it's used for identity verification at airports and secure facilities.
 T: Is it safe?
+A: It's generally secure, but like any technology, it has its challenges and privacy concerns. It's necessary to keep biometric data protected to maintain its security.
+T: What are people studying in biometrics these days?
+A: Researchers are exploring biometrics beyond traditional methods. For example, they're experimenting with palm vein recognition and even behavioral biometrics, like typing patterns to enhance security.
+
+### Dialogue 5: Talking about Augmented Reality
+
+S: Tom, do you know anything about Augmented Reality app?
+T: Oh, i love AR. It is a mix of digital information and real world. You can use it for games, navigation, and even interior design.
+S: How does it work, exactly?
+T: AR apps use your device's camera to add digital content to the physical world. It's so cool. For example, in gaming, you can chase virtual creatures in your neighborhood.
+S: That sounds fun. Are there any practical applications for AR?
+T: Oh yeah! In education, AR can make learning interactive. Architects and interior designers also use to visualize how furniture will look in a space, for example.
