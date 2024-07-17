@@ -679,3 +679,16 @@ S: How does it work, exactly?
 T: AR apps use your device's camera to add digital content to the physical world. It's so cool. For example, in gaming, you can chase virtual creatures in your neighborhood.
 S: That sounds fun. Are there any practical applications for AR?
 T: Oh yeah! In education, AR can make learning interactive. Architects and interior designers also use to visualize how furniture will look in a space, for example.
+
+## class 12: Learn how to clarify information in deferent interactions
+
+In this course, you'll learn how to check to see if the information you had is correct and how to ask for clarification when something is not clear to you.
+
+### Dialogue 1: Describing a wokemate
+
+T: Hey, Alice. Do you know Lisa?
+A: No, i don't think i've had the chance to meet her. Who's Lisa?
+T: She's a colleague with long wavy brown hair and bright brown eyes. If you see her today, she's wearing a black and green jacket and beige shirt.
+A: Oh, i think saw her. What does she do on the team?
+T: She's a UX/UI designer. She's really creative.
+A: That's interesting. Thanks for the description, Tom. I'll make sure to say hi when I run into her.
