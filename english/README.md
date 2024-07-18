@@ -692,3 +692,11 @@ T: She's a colleague with long wavy brown hair and bright brown eyes. If you see
 A: Oh, i think saw her. What does she do on the team?
 T: She's a UX/UI designer. She's really creative.
 A: That's interesting. Thanks for the description, Tom. I'll make sure to say hi when I run into her.
+
+### Dialogue 2: Looking for Tom
+
+D: Hi here. I have a package for Tom. Do you know him?
+S: Yes, i do. He's part of design team. But he's not at his desk now. Can I help you with something?
+D: That's alright. I need to confirm it's him before i leave this package. Can you describe him for me?
+S: Sure, Tom is tall guy with a friendly smile. He's got long dark hair and does not wear glasses. You can't miss his goatee. He also likes wearing a scarf or something. Does that help?
+D: Absolutely! Thanks for the description. I'll try to find him around here.
