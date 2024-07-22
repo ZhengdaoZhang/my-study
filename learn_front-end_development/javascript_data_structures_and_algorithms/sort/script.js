@@ -74,7 +74,7 @@ function quickSort(arr) {
     }
 
     let middleIndex = Math.floor(res.length / 2);
-    let middleValue = res.splice(middleIndex, 1);
+    let middleValue = res.splice(middleIndex, 1)[0];
     let left = [];
     let right = [];
 
