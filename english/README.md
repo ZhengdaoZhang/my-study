@@ -700,3 +700,18 @@ S: Yes, i do. He's part of design team. But he's not at his desk now. Can I help
 D: That's alright. I need to confirm it's him before i leave this package. Can you describe him for me?
 S: Sure, Tom is tall guy with a friendly smile. He's got long dark hair and does not wear glasses. You can't miss his goatee. He also likes wearing a scarf or something. Does that help?
 D: Absolutely! Thanks for the description. I'll try to find him around here.
+
+### Dialogue 3: A guessing game
+
+T: Hey, Alice, want to play a guessing game? I'll name some objects with strange names and you try to guees what they are.
+A: Sounds fun. I'm up for the challenge.
+T: Great! Here's the first one: 'Percolator'.
+A: Hmm, is it some kind of machine?
+T: You're on the right track. It's a kind of coffee machine.
+A: Ah, got it. Okay, your turn: 'Skeuomorph'.
+T: Hmm, that's a tough one. Is it a type of rare plant?
+A: Not really. It's a design element. It imitates real-world objects in digital interfaces.
+T: Interesting. Alright, how about 'sphygmomanometer'?
+A: Whoa, that's a mouthful. Is it a medical device?
+T: You'r absolutely right. It's the device that doctors use to measure your blood pressure.
+A: Hey, I'm good at this!
